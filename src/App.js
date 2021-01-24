@@ -1,13 +1,13 @@
-import MainSection from './sections/MainSection/MainSection';
-import AboutSection from './sections/AboutSection/AboutSection';
-import ProjectsSection from './sections/ProjectsSection/ProjectSection';
+import MainPage from './pages/MainPage/MainPage';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div>
-      <MainSection />
-      <AboutSection />
-      <ProjectsSection />
+      <Navbar />
+      <MainPage />
+      <Footer />
     </div>
   );
 }
