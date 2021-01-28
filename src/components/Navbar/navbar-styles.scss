@@ -9,6 +9,7 @@
 
     .burger-svg {
         margin: auto 30px;
+        fill: white;
     }
 
     .navigation-container {
@@ -24,7 +25,7 @@
                 margin-right: 20px;
                 
                 a {
-                    color: black;
+                    color: white;
                     font-weight: bold;
                 }
             }
@@ -34,15 +35,11 @@
 
 .active {
     transition: .2s ease-in-out;
-    background: lightgray;
+    background: #1F9FF2;
     z-index: 3;
     box-shadow: 5px 5px 20px gray;
 
     .navigation-container ul li a {
         color: white;
-    }
-
-    .burger-svg {
-        fill: white;
     }
 }
