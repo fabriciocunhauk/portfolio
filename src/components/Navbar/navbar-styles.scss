@@ -1,3 +1,5 @@
+@import '../../scss/variables.scss';
+
 .navbar {
     display: flex;
     align-items: center;
@@ -9,7 +11,7 @@
 
     .burger-svg {
         margin: auto 30px;
-        fill: white;
+        fill: $white-color;
     }
 
     .navigation-container {
@@ -25,7 +27,7 @@
                 margin-right: 20px;
                 
                 a {
-                    color: white;
+                    color: $white-color;
                     font-weight: bold;
                 }
             }
@@ -35,11 +37,12 @@
 
 .active {
     transition: .2s ease-in-out;
-    background: #1F9FF2;
+    background: $black-glass-color;
+    opacity: .9;
     z-index: 3;
     box-shadow: 5px 5px 20px gray;
 
     .navigation-container ul li a {
-        color: white;
+        color: $white-color;
     }
 }

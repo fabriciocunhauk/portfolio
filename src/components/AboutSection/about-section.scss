@@ -1,5 +1,48 @@
-.about-container {
+@import '../../scss/variables.scss';
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
-    background: lightgray;
+    background: $white-color;
+
+    h1 {
+        margin: 10px;
+    }
+
+    .skill-container-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 90%;
+        height: 70%;
+
+        .skill-container-content-svg {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        background: $black-glass-color;
+        border-radius: 8px;
+        opacity: .9;
+        width: 20%;
+        height: 80%;
+
+        .skill-container-content-svg-image {
+            width: 70px;
+            height: 70px;
+        }
+    }
+
+    .skill-container-side-text {
+        width: 400px;
+        height: 90%;
+    }
+    }
+
+    
+
 }

@@ -1,6 +1,9 @@
+@import '../../scss/variables.scss';
+
 .footer {
-    color: white;
+    color: $white-color;
     width: 100%;
     height: 200px;
-    background: #1F9FF2;
+    background: $black-glass-color;
+    opacity: .9;
 }
