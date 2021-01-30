@@ -11,15 +11,18 @@
         height: 30%;
 
         h1 {
-            color: white;
+            color: $white-color;
             font-size: 4rem;
             font-family: $poppins-font;
+            text-shadow: 2px 2px 15px $white-color;
         }
     
         p {
             color: white;
             font-size: 2rem;
             font-family: $poppins-font;
+            text-shadow: 2px 2px 15px $white-color;
+
         }
 
         @media (max-width: 700px) {
