@@ -8,10 +8,12 @@
     width: 100%;
     height: 80px;
     position: fixed;
+    z-index: 3;
 
     .burger-svg {
         margin: auto 30px;
         fill: $white-color;
+        cursor: pointer;
     }
 
     .navigation-container {

@@ -3,7 +3,7 @@ import './project-secrion.scss';
 
 const ProjectSection = () => {
     return (
-        <div className="projects-container">
+        <div className="projects-container" id="projects-section">
             <h1>Projects</h1>
             <hr />
             <div className="cards">

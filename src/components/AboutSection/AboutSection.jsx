@@ -4,7 +4,7 @@ import './about-section.scss';
 
 const AboutSection = () => {
     return (
-        <div className="skill-container">
+        <div className="skill-container" id="about-section">
             <h1>My Skills</h1>
             <hr />
             <div className="skill-container-content">

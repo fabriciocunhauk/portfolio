@@ -4,11 +4,13 @@ import AboutSection from '../../components/AboutSection/AboutSection';
 import ProjectsSection from '../../components/ProjectsSection/ProjectSection';
 
 import './main-page.scss';
+import SideMenu from '../../components/SideMenu/SideMenu';
 
 const MainSection = () => {
     return (
         <>
-            <div className="main-container">
+            <div className="main-container" id="/">
+                <SideMenu />
                 <header>
                     <h1>Hi, I'm Fabricio Cunha</h1>
                     <p>A Frontend Developer</p>
