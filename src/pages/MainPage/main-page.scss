@@ -16,7 +16,7 @@
             font-family: $poppins-font;
             text-shadow: 2px 2px 15px $white-color;
         }
-    
+
         p {
             color: white;
             font-size: 2rem;
@@ -31,16 +31,15 @@
             h1 {
                 font-size: 2rem;
             }
-        
+
             p {
                 font-size: 1rem;
             }
         }
     }
 
-    
     video {
-        object-fit: cover;
+        object-fit: fill;
         width: 100vw;
         height: 100vh;
     }

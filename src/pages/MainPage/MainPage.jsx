@@ -4,6 +4,7 @@ import AboutSection from '../../components/AboutSection/AboutSection';
 import ProjectsSection from '../../components/ProjectsSection/ProjectSection';
 
 import './main-page.scss';
+import ContactSection from '../../components/ContactSection/ContactSection';
 // import SideMenu from '../../components/SideMenu/SideMenu';
 
 const MainSection = () => {
@@ -21,6 +22,7 @@ const MainSection = () => {
             </div>
             <AboutSection />
             <ProjectsSection />
+            <ContactSection />
         </>
     )
 }
