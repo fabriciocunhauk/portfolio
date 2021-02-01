@@ -5,7 +5,7 @@ import './about-section.scss';
 const AboutSection = () => {
     return (
         <div className="skill-container" id="about-section">
-            <h1>My Skills</h1>
+            <h1 className="skill-container-h1">My Skills</h1>
             <hr />
             <div className="skill-container-content">
                 <div className="skill-container-content-svg">
@@ -14,8 +14,8 @@ const AboutSection = () => {
                     )}
                 </div>
                 <div className="skill-container-side-text">
-                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, deserunt?</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem architecto ipsam, voluptatum nulla quis blanditiis, aliquid saepe error suscipit laudantium consectetur libero optio, sit autem adipisci corrupti nobis possimus aut numquam facilis! Doloribus illo repudiandae ea architecto? Non quam perspiciatis omnis nihil! Pariatur consectetur debitis, id consequuntur ipsa excepturi!</p>
+                    <h1 className="skill-container-side-text-h1">JavaScript | HTML | CSS | SCSS/SASS | Node.js | React.js | Redux | SQL | NoSQL | REST Api's | Git</h1>
+                    <p>Highly motivated, a self-starting developer seeking to launch a career building web applications and services. Familiar with the development and deployment process for many web-based technologies.</p>
                 </div>
             </div>
         </div>

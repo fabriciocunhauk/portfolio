@@ -7,18 +7,20 @@ import redux from '../images/SVG/redux.svg';
 import git from '../images/SVG/git.svg';
 import github from '../images/SVG/github-octocat.svg';
 import mySql from '../images/SVG/mysql.svg';
-import bootstrap from '../images/SVG/bootstrap-4.svg';
+import graphQL from '../images/SVG/graphql.svg';
+import sass from '../images/SVG/sass.svg';
+import mongoDB from '../images/SVG/mongodb.svg';
 
 export const mySvgData = [
     {
         id: 1,
         path: javascript,
-        link: "https://www.javascript.com/"
+        link: "https://www.javascript.com"
     },
     {
         id: 2,
         path: html,
-        link: "https://www.w3schools.com/html/"
+        link: "https://www.w3schools.com/html"
     },
     {
         id: 3,
@@ -28,36 +30,46 @@ export const mySvgData = [
     {
         id: 4,
         path: node,
-        link: "https://nodejs.org/en/"
+        link: "https://nodejs.org/en"
     },
     {
         id: 5,
         path: react,
-        link: "https://reactjs.org/"
+        link: "https://reactjs.org"
     },
     {
         id: 6,
         path: redux,
-        link: "https://redux.js.org/"
+        link: "https://redux.js.org"
     },
     {
         id: 7,
         path: git,
-        link: "https://git-scm.com/"
+        link: "https://git-scm.com"
     },
     {
         id: 8,
         path: github,
-        link: "https://github.com/"
+        link: "https://github.com"
     },
     {
         id: 9,
         path: mySql,
-        link: "https://www.mysql.com/"
+        link: "https://www.mysql.com"
     },
     {
         id: 10,
-        path: bootstrap,
-        link: "https://getbootstrap.com/"
+        path: graphQL,
+        link: "https://graphql.org"
+    },
+    {
+        id: 11,
+        path: mongoDB,
+        link: "https://www.mongodb.com/cloud/atlas"
+    },
+    {
+        id: 12,
+        path: sass,
+        link: "https://sass-lang.com"
     },
 ]
