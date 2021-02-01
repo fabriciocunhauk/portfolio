@@ -1,13 +1,13 @@
-import javascript from './images/SVG/javascript-4.svg';
-import html from './images/SVG/html5.svg';
-import css from './images/SVG/css3.svg';
-import node from './images/SVG/node-js-logo.svg';
-import react from './images/SVG/react-1.svg';
-import redux from './images/SVG/redux.svg';
-import git from './images/SVG/git.svg';
-import github from './images/SVG/github-octocat.svg';
-import mySql from './images/SVG/mysql.svg';
-import bootstrap from './images/SVG/bootstrap-4.svg';
+import javascript from '../images/SVG/javascript-4.svg';
+import html from '../images/SVG/html5.svg';
+import css from '../images/SVG/css3.svg';
+import node from '../images/SVG/node-js-logo.svg';
+import react from '../images/SVG/react-1.svg';
+import redux from '../images/SVG/redux.svg';
+import git from '../images/SVG/git.svg';
+import github from '../images/SVG/github-octocat.svg';
+import mySql from '../images/SVG/mysql.svg';
+import bootstrap from '../images/SVG/bootstrap-4.svg';
 
 export const mySvgData = [
     {

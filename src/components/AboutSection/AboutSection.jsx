@@ -1,5 +1,5 @@
 import React from 'react';
-import { mySvgData } from '../../svg-data';
+import { mySvgData } from '../../data/svg-data';
 import './about-section.scss';
 
 const AboutSection = () => {

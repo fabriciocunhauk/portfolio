@@ -1,4 +1,7 @@
 import React from 'react';
+import Card from './component/Card/Card';
+import cardUrls from '../../data/card-data';
+
 import './project-secrion.scss';
 
 const ProjectSection = () => {
@@ -7,72 +10,15 @@ const ProjectSection = () => {
             <h1>Projects</h1>
             <hr />
             <div className="cards">
-                <div className="card">
-                    <div className="card-project-header">
-                        <h1>Project name</h1>
-                        <img src="https://github.com/fabriciocunhauk/React.js-interflix/raw/master/src/assets/imagens/Front-photo.PNG" alt="" />
-                    </div>
-                    <div className="card-description">
-                        <p>description</p>
-                        <button>GitHub</button>
-                        <button>Website</button>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-project-header">
-                        <h1>Project name</h1>
-                        <img src="https://github.com/fabriciocunhauk/React.js-interflix/raw/master/src/assets/imagens/Front-photo.PNG" alt="" />
-                    </div>
-                    <div className="card-description">
-                        <p>description</p>
-                        <button>GitHub</button>
-                        <button>Website</button>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-project-header">
-                        <h1>Project name</h1>
-                        <img src="https://github.com/fabriciocunhauk/React.js-interflix/raw/master/src/assets/imagens/Front-photo.PNG" alt="" />
-                    </div>
-                    <div className="card-description">
-                        <p>description</p>
-                        <button>GitHub</button>
-                        <button>Website</button>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-project-header">
-                        <h1>Project name</h1>
-                        <img src="https://github.com/fabriciocunhauk/React.js-interflix/raw/master/src/assets/imagens/Front-photo.PNG" alt="" />
-                    </div>
-                    <div className="card-description">
-                        <p>description</p>
-                        <button>GitHub</button>
-                        <button>Website</button>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-project-header">
-                        <h1>Project name</h1>
-                        <img src="https://github.com/fabriciocunhauk/React.js-interflix/raw/master/src/assets/imagens/Front-photo.PNG" alt="" />
-                    </div>
-                    <div className="card-description">
-                        <p>description</p>
-                        <button>GitHub</button>
-                        <button>Website</button>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-project-header">
-                        <h1>Project name</h1>
-                        <img src="https://github.com/fabriciocunhauk/React.js-interflix/raw/master/src/assets/imagens/Front-photo.PNG" alt="" />
-                    </div>
-                    <div className="card-description">
-                        <p>description</p>
-                        <button>GitHub</button>
-                        <button>Website</button>
-                    </div>
-                </div>
+                {cardUrls.map(card => {
+                    return <Card
+                        key={card.id}
+                        imgURL={card.imgURL}
+                        name={card.name}
+                        link={card.link}
+                        github={card.github}
+                    />
+                })}
             </div>
         </div>
     )

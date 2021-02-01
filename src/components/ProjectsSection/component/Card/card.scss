@@ -1,0 +1,40 @@
+.card {
+    margin: 20px auto;
+    width: 440px;
+    box-shadow: 2px 2px 20px black;
+    background: white;
+
+    .card-project-header {
+        .card-image {
+            width: 100%;
+            height: 250px;
+        }
+    }
+
+    .card-project-header:hover {
+        transform: scale(1.1);
+        transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+
+    h1 {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: black;
+    }
+
+    .card-description-icon {
+        width: 35px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card-description-icon:hover {
+        transform: scale(1.2);
+        transition: .3s ease-in-out;
+    }
+
+    @media (max-width:700px) {
+        width: 90%;
+    }
+}
