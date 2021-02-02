@@ -1,5 +1,173 @@
+@import '../../scss/variables';
+
 .contact-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     height: 100vh;
-    background: white;
+
+    h1 {
+        margin: 20px;
+        height: 50px;
+    }
+
+    hr {
+        width: 40%;
+        margin: 0 auto;
+        height: 6px;
+        background: black;
+    }
+
+    .section-cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 90%;
+        height: 90%;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            width: 350px;
+            height: 480px;
+            background: $black-glass-color;
+            box-shadow: 1px 1px 10px black;
+
+            border-radius: 8px;
+
+            fieldset {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                width: 400px;
+                height: 320px;
+                border: none;
+
+                .form-field-cotainer {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 300px;
+                    height: 100px;
+                    background: $white-color;
+
+                    .names-fied {
+                        margin: 10px;
+                    }
+
+                    @media (max-width: 700px) {
+                        .names-fied {
+                            width: 130px;
+                        }
+                    }
+
+                    input {
+                        width: 300px;
+                        height: 40px;
+                        border-radius: 8px;
+                    }
+
+                    @media (max-width: 700px) {
+                        input {
+                            width: 250px;
+                        }
+                    }
+
+                    input::-webkit-input-placeholder {
+                        padding-left: 10px;
+                    }
+                }
+
+                @media (max-width: 700px) {
+                    .form-field-cotainer {
+                        width: 270px;
+                    }
+                }
+            }
+
+            textarea {
+                width: 300px;
+            }
+
+            @media (max-width: 700px) {
+                textarea {
+                    width: 270px;
+                }
+            }
+
+            button {
+                width: 150px;
+                height: 30px;
+                border-radius: 8px;
+                cursor: pointer;
+                color: $white-color;
+                background: $black-glass-color;
+                box-shadow: 1px 1px 10px $white-color;
+                transition: .5s ease-in-out;
+            }
+
+            button:hover {
+                transform: scale(1.1);
+                background: $white-color;
+                color: $black-glass-color;
+                opacity: 4;
+            }
+        }
+    }
+
+    @media (max-width: 700px) {
+        .section-cards {
+            display: flex;
+            flex-wrap: wrap;
+            width: 380px;
+            padding: 20px;
+        }
+    }
+
+    .contact-details {
+        text-align: center;
+        width: 350px;
+        height: 480px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 10px black;
+
+        .icon-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 400px;
+            height: 350px;
+
+            .contact-link {
+                margin-left: 20px;
+                display: flex;
+                align-items: center;
+
+                img {
+                    margin-right: 20px;
+                    width: 35px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 700px) {
+        .contact-details {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .contact-section-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
 }
