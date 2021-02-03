@@ -9,20 +9,18 @@
     min-height: 100vh;
     background: $white-color;
 
-    .skill-container-h1 {
-        margin-top: -30px;
-        margin-bottom: -40px;
-    }
-
     @media (max-width: 700px) {
         .skill-container-h1 {
             margin: 10px;
+        }
+
+        hr {
+            margin: 20px;
         }
     }
 
     hr {
         width: 40%;
-        margin: 10px auto;
         height: 6px;
         background: black;
     }
