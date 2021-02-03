@@ -10,15 +10,15 @@ import ContactSection from '../../components/ContactSection/ContactSection';
 const MainSection = () => {
     return (
         <>
+            <video autoPlay muted loop >
+                <source src={mainBg} alt="main" />
+            </video>
             <div className="main-container" id="/">
                 {/* <SideMenu /> */}
                 <header>
                     <h1>Hi, I'm Fabricio Cunha</h1>
                     <p>A Frontend Developer</p>
                 </header>
-                <video autoPlay muted loop >
-                    <source src={mainBg} alt="main" />
-                </video>
             </div>
             <AboutSection />
             <ProjectsSection />

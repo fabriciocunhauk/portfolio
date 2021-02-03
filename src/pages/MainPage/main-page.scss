@@ -2,12 +2,12 @@
 
 .main-container {
     width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
     header {
-        position: absolute;
         height: 30%;
 
         h1 {
@@ -38,9 +38,12 @@
         }
     }
 
-    video {
-        object-fit: fill;
-        width: 100vw;
-        height: 100vh;
-    }
+}
+
+video {
+    position: fixed;
+    object-fit: fill;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
 }
