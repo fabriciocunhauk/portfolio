@@ -17,7 +17,7 @@ const SideMenu = () => {
             </ul>
             <div className="contact-links-container">
                 <ul className="social-links-container">
-                    <li><a className="social-link" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/fabricio-cunha-7b7392162"><img src={linkedinLink} alt="linkedin" /></a></li>
+                    <li><a className="social-link" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/fabricio-cunha-7b7392162"><span className="social-link-shadow"><img src={linkedinLink} alt="linkedin" /></span></a></li>
                     <li><a className="social-link" rel="noopener noreferrer" target="_blank" href="https://github.com/fabriciocunhauk"><img src={gitHubLink} alt="github" /></a></li>
                     <li><a className="social-link" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/fabriciocunhauk/?hl=en"><img src={instagramLink} alt="instagram" /></a></li>
                 </ul>
