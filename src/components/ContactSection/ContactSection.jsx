@@ -12,21 +12,33 @@ const ContactSection = () => {
             <h1>Contact Me</h1>
             <hr />
             <div className="section-cards">
-                <form>
+                <form action="mailto:fabriciocunhadeveloper@gmail.com" method="post" encType="text/plain">
                     <fieldset>
                         <div className="form-field-cotainer">
-                            <input className="names-fied" type="text" name="name" placeholder="Name" />
-                            <input className="names-fied" type="text" name="name" placeholder="Surname" />
+                            <div>
+                                <label htmlFor="name">Name</label>
+                                <input className="names-fied" id="name" type="text" name="Name " placeholder="Name" />
+                            </div>
+                            <div>
+                                <label htmlFor="surname">Surame</label>
+                                <input className="names-fied" id="surname" type="text" name="Surname " placeholder="Surname" />
+                            </div>
                         </div>
                         <div className="form-field-cotainer">
-                            <input type="email" placeholder="email" />
+                            <div>
+                                <label htmlFor="email">Email</label>
+                                <input type="email" id="email" name="email " placeholder="email" />
+                            </div>
                         </div>
                         <div className="form-field-cotainer">
-                            <input type="tel" placeholder="Contact number" />
+                            <div>
+                                <label htmlFor="contact">Contact Number</label>
+                                <input type="tel" id="contact" name="phone " placeholder="Contact number" />
+                            </div>
                         </div>
                     </fieldset>
-                    <textarea name="aditional-details" cols="64" rows="5" placeholder="Mensage"></textarea>
-                    <button type="submit">Send Mensage</button>
+                    <textarea name="aditional-details" cols="64" rows="5" placeholder="Message"></textarea>
+                    <button type="submit">Send Message</button>
                 </form>
                 <div className="contact-details">
                     <h1>Fabricio Cunha</h1>
