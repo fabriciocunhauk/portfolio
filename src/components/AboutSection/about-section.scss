@@ -9,6 +9,17 @@
     min-height: 100vh;
     background: $white-color;
 
+    .skill-container-h1 {
+        margin-top: -40px;
+        margin-bottom: -100px;
+    }
+
+    @media (max-width: 1400px) {
+        .skill-container-h1 {
+            margin: 0;
+        }
+    }
+
     @media (max-width: 700px) {
         .skill-container-h1 {
             margin: 10px;
@@ -22,6 +33,7 @@
     hr {
         width: 40%;
         height: 6px;
+        margin-bottom: 30px;
         background: black;
     }
 
@@ -30,8 +42,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
-        width: 90%;
-        height: 70%;
+        width: 70%;
 
         .skill-container-content-svg {
             display: flex;
@@ -64,7 +75,6 @@
             height: 90%;
 
             .skill-container-side-text-h1 {
-                font-size: 30px;
                 margin-bottom: 20px;
             }
 
@@ -79,7 +89,11 @@
             }
         }
     }
+}
 
-
-
+@media (max-width: 1400px) {
+    .skill-container {
+        padding: 70px;
+        height: 710px;
+    }
 }
