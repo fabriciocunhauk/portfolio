@@ -9,9 +9,15 @@
     height: 100vh;
 
     h1 {
-        margin-top: 80px;
+        margin-top: 40px;
         margin-bottom: 20px;
         height: 60px;
+    }
+
+    @media (max-width: 1400px) {
+        h1 {
+            margin-top: 100px;
+        }
     }
 
     hr {
@@ -34,7 +40,7 @@
             align-items: center;
             justify-content: space-around;
             width: 350px;
-            height: 480px;
+            height: 510px;
             background: $black-glass-color;
             box-shadow: 1px 1px 10px black;
 
@@ -172,6 +178,7 @@
     .contact-details {
         text-align: center;
         width: 350px;
+        height: 510px;
         background: $white-color;
         border-radius: 8px;
         box-shadow: 1px 1px 10px black;
