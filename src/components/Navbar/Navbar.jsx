@@ -3,7 +3,7 @@ import { ReactComponent as Logo } from '../../images/burger-menu.svg';
 import SideMenu from '../SideMenu/SideMenu';
 import './navbar-styles.scss';
 
-const Header = () => {
+const Navbar = () => {
     const [navbarBg, setNavbarBg] = useState(false);
     const [sideMenu, setSideMenu] = useState(false);
 
@@ -23,7 +23,6 @@ const Header = () => {
             menuClose();
             setSideMenu(false);
         }
-
     };
 
     const menuOpen = () => {
@@ -56,4 +55,4 @@ const Header = () => {
     )
 };
 
-export default Header;
+export default Navbar;
