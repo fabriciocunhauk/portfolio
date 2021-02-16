@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './component/Card/Card';
 import cardUrls from '../../data/card-data';
 
-import './project-secrion.scss';
+import './project-section.scss';
 
 const ProjectSection = () => {
     return (
