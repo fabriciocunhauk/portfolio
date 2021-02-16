@@ -5,7 +5,7 @@ import './contact-section.scss';
 const ContactSection = () => {
     return (
         <div className="contact-section-container" id="contact-section">
-            <h1>Contact Me</h1>
+            <h1>Contact</h1>
             <hr />
             <form action="mailto:fabriciocunhadeveloper@gmail.com" method="post" encType="text/plain">
                 <fieldset>

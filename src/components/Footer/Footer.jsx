@@ -13,8 +13,6 @@ const Footer = () => {
                 <h1>Lets talk</h1>
                 <a className="contact-link" href="mailto:fabriciocunhadeveloper@gmail.com"><img src={emailIcon} alt="email" />fabriciocunhadeveloper@gmail.com</a>
             </div>
-
-            <p>&#169; Fabricio Cunha</p>
             <div className="contact-details">
                 <h1>Fabricio Cunha</h1>
                 <div className="icon-container">
