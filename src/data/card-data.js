@@ -65,6 +65,15 @@ const cardUrls = [
     },
     {
         id: 9,
+        name: "Eat smart",
+        imgURL:
+            "https://github.com/fabriciocunhauk/eat-smart-page/raw/master/assets/images/frontpage.jpg",
+        link: "https://fabriciocunhauk.github.io/eat-smart-page",
+        github: "https://github.com/fabriciocunhauk/eat-smart-page"
+
+    },
+    {
+        id: 10,
         name: "Kyuuby",
         imgURL:
             "https://github.com/fabriciocunhauk/Kyuuby-Action-Figure-Website/raw/master/images/kyuubi%20update%2007-11-2020.PNG",
@@ -73,31 +82,32 @@ const cardUrls = [
 
     },
     {
-        id: 10,
+        id: 11,
         name: "Multiplayer-game",
         imgURL:
             "https://raw.githubusercontent.com/filipedeschamps/meu-primeiro-jogo-multiplayer/master/game-preview.gif",
         github: "https://github.com/fabriciocunhauk/Multiplayer-Game"
     },
     {
-        id: 11,
+        id: 12,
         name: "React-Native-Restaurant-Search-App",
         imgURL:
             "https://github.com/fabriciocunhauk/React-Native-Restaurant-Search-App/raw/master/images/Capture.PNG?raw=true",
         github: "https://github.com/fabriciocunhauk/React-Native-Restaurant-Search-App"
     },
     {
-        id: 12,
+        id: 13,
         name: "Happy",
         imgURL:
             "https://github.com/rocketseat-education/nlw-03-omnistack/raw/master/.github/happy.png",
         github: "https://github.com/fabriciocunhauk/happy"
     },
     {
-        id: 13,
+        id: 14,
         name: "Google-glass",
         imgURL:
             "https://repository-images.githubusercontent.com/248870497/40e30100-7aa6-11ea-9252-0a5de5bbcae4",
+        link: "https://projeto-glass.vercel.app",
         github: "https://github.com/fabriciocunhauk/projeto-glass"
     }
 ]
