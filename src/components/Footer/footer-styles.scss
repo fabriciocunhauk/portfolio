@@ -4,28 +4,29 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: $white-color;
     width: 100%;
-    min-height: 300px;
+    min-height: 200px;
     background: $black-glass-color;
 
-    .lets-talk {
-        margin-top: -90px;
+    .btn-download {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 40px;
+        color: $black-glass-color;
+        font-weight: bold;
+        background: $white-color;
+        border-radius: 8px;
+        transition: all .3s;
+        box-shadow: 0px 0px 10px $white-color;
+    }
 
-        h1 {
-            margin-bottom: 30px;
-        }
-
-        img {
-            margin-right: 20px;
-        }
-
-        a {
-            display: flex;
-            align-items: center;
-            color: white;
-        }
+    .btn-download:hover {
+        transform: translate3d(0, -2px, 0) scale(1.05);
+        box-shadow: 0px 0px 20px $white-color;
     }
 
     @media (max-width: 700px) {
@@ -39,13 +40,13 @@
     }
 
     .contact-details {
-        height: 200px;
+        margin: 20px;
 
         .icon-container {
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
-            height: 70%;
+            height: 150px;
 
             .contact-link {
                 display: flex;
