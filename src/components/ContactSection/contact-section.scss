@@ -38,8 +38,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        width: 70%;
-        height: 70%;
+        width: 900px;
+        height: 600px;
         background: $black-glass-color;
         box-shadow: 1px 1px 10px black;
 
@@ -53,7 +53,7 @@
             border: none;
 
             input {
-                width: 300px;
+                width: 400px;
                 height: 40px;
                 margin: 10px;
                 outline: none;
@@ -72,7 +72,11 @@
         }
 
         textarea {
-            width: 300px;
+            width: 400px;
+        }
+
+        textarea::-webkit-input-placeholder {
+            padding-left: 10px;
         }
 
         @media (max-width: 700px) {
@@ -96,6 +100,14 @@
         button:hover {
             transform: scale(1.03);
             box-shadow: 0px 0px 20px $white-color;
+        }
+    }
+
+    @media (max-width: 1400px) {
+        form {
+            margin-top: 20px;
+            width: 700px;
+            height: 400px;
         }
     }
 

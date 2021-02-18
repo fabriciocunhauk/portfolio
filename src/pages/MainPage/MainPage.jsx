@@ -1,5 +1,5 @@
 import React from 'react';
-import mainBg from '../../images/bg-video/Nebula-6044.mp4';
+import mainBg from '../../images/pexels-neo-2653362.jpg';
 import AboutSection from '../../components/AboutSection/AboutSection';
 import ProjectsSection from '../../components/ProjectsSection/ProjectSection';
 
@@ -10,9 +10,7 @@ import ContactSection from '../../components/ContactSection/ContactSection';
 const MainSection = () => {
     return (
         <>
-            <video autoPlay muted loop >
-                <source src={mainBg} alt="main" />
-            </video>
+            <img className="main-bg" src={mainBg} alt="main-background" />
             <div className="main-container" id="/">
                 {/* <SideMenu /> */}
                 <header>
