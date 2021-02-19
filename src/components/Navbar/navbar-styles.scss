@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    transition: .3s ease-in-out;
+    transition: .6s ease-in-out;
     width: 100%;
     height: 80px;
     position: fixed;
@@ -46,12 +46,7 @@
 }
 
 .active {
-    transition: .2s ease-in-out;
     background: $black-glass-color;
     z-index: 3;
     box-shadow: 5px 5px 20px gray;
-
-    .navigation-container ul li a {
-        color: $white-color;
-    }
 }
