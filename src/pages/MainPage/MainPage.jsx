@@ -15,7 +15,6 @@ const MainSection = () => {
             <img className="main-bg" src={mainBg} alt="main-background" />
             <div className="main-container" id="/">
                 <header>
-
                     <h1>Hi,
                     <Typical
                             wrapper="b"
