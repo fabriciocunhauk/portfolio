@@ -21,12 +21,9 @@
             font-size: 2rem;
             font-family: $poppins-font;
             text-shadow: 2px 2px 15px $white-color;
-
         }
 
         @media (max-width: 700px) {
-            height: 50%;
-
             h1 {
                 font-size: 2rem;
             }

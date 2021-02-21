@@ -8,8 +8,6 @@ import ContactSection from '../../components/ContactSection/ContactSection';
 import './main-page.scss';
 
 const MainSection = () => {
-
-
     return (
         <>
             <img className="main-bg" src={mainBg} alt="main-background" />
