@@ -40,6 +40,7 @@
         justify-content: space-around;
         width: 900px;
         height: 600px;
+        padding: 10px;
         background: $black-glass-color;
         box-shadow: 1px 1px 10px black;
 
@@ -53,7 +54,7 @@
             border: none;
 
             input {
-                width: 400px;
+                width: 600px;
                 height: 40px;
                 margin: 10px;
                 outline: none;
@@ -66,13 +67,14 @@
 
             @media (max-width: 700px) {
                 input {
-                    width: 220px;
+                    width: 320px;
                 }
             }
         }
 
         textarea {
-            width: 400px;
+            width: 600px;
+            outline: none;
         }
 
         textarea::-webkit-input-placeholder {
@@ -81,15 +83,16 @@
 
         @media (max-width: 700px) {
             textarea {
-                width: 220px;
+                width: 320px;
             }
         }
 
         button {
-            width: 150px;
+            width: 30%;
             height: 30px;
             border-radius: 8px;
             font-weight: bold;
+            outline: none;
             cursor: pointer;
             margin: 10px;
             background: $white-color;
@@ -97,9 +100,26 @@
             transition: all .3s ease-in-out;
         }
 
+        .btn-success {
+            background: #4CAF50;
+        }
+
+        .btn-fail {
+            background: #f44336;
+            color: white;
+        }
+
         button:hover {
             transform: scale(1.03);
             box-shadow: 0px 0px 20px $white-color;
+        }
+
+        @media (max-width: 700px) {
+            button {
+                width: 60%;
+                height: 12%;
+                font-size: 18px;
+            }
         }
     }
 
@@ -114,6 +134,7 @@
     @media (max-width: 700px) {
         form {
             width: 350px;
+            height: 500px;
             margin-bottom: 20px;
         }
     }
