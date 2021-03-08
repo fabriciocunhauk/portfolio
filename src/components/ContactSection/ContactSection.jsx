@@ -5,8 +5,6 @@ import './contact-section.scss';
 const ContactSection = () => {
     const [status, setStatus] = useState('');
 
-    console.log(status);
-
     function submitForm(ev) {
         console.log(ev);
         ev.preventDefault();

@@ -6,7 +6,7 @@ import react from '../images/SVG/react-1.svg';
 import redux from '../images/SVG/redux.svg';
 import git from '../images/SVG/git.svg';
 import github from '../images/SVG/github-octocat.svg';
-import mySql from '../images/SVG/mysql.svg';
+import sql from '../images/SVG/sql.svg';
 import graphQL from '../images/SVG/graphql.svg';
 import sass from '../images/SVG/sass.svg';
 import mongoDB from '../images/SVG/mongodb.svg';
@@ -54,7 +54,7 @@ export const mySvgData = [
     },
     {
         id: 9,
-        path: mySql,
+        path: sql,
         link: "https://www.mysql.com"
     },
     {
