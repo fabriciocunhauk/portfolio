@@ -8,7 +8,7 @@ import instagramLink from '../../images/icons/instagram.svg';
 
 const SideMenu = () => {
     return (
-        <div className="side-menu-container">
+        <nav className="side-menu-container">
             <ul className="side-menu-button-container">
                 <li className="side-menu-button"><Link className="link-button" to="about-section">Skills</Link></li>
                 <li className="side-menu-button"><Link className="link-button" to="projects-section">Projects</Link></li>
@@ -22,7 +22,7 @@ const SideMenu = () => {
                     <li><a className="social-link" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/fabriciocunhauk/?hl=en"><img src={instagramLink} alt="instagram" /></a></li>
                 </ul>
             </div>
-        </div>
+        </nav>
     )
 }
 

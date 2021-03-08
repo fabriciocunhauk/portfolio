@@ -8,7 +8,7 @@ import './footer-styles.scss';
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <footer className="footer">
             <div className="contact-details">
                 <h1>Fabricio Cunha</h1>
                 <div className="icon-container">
@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
             </div>
             <a href={myCv} className="btn-download" target="_blank" rel="noopener noreferrer" download="Fabricio-Cunha-CV.pdf">Download CV</a>
-        </div>
+        </footer>
     )
 }
 

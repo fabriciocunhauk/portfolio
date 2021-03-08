@@ -26,7 +26,7 @@ const ContactSection = () => {
     }
 
     return (
-        <div className="contact-section-container" id="contact-section">
+        <section className="contact-section-container" id="contact-section">
             <h1>Lets talk</h1>
             <hr />
             <form action="https://formspree.io/f/mpzogvej" method="POST" onSubmit={submitForm}>
@@ -44,7 +44,7 @@ const ContactSection = () => {
                             : <button>Submit</button>
                 }
             </form>
-        </div>
+        </section>
     )
 }
 
