@@ -2,7 +2,7 @@ import React from 'react';
 import locationIcon from '../../images/icons/location.svg';
 import emailIcon from '../../images/icons/email.svg';
 import phoneIcon from '../../images/icons/phone.svg';
-import myCv from '../../assets/Download-file/Fabricio_Cunha_3-2.pdf';
+import myCv from '../../assets/Download-file/Fabricio_Cunha_04.pdf';
 
 import './footer-styles.scss';
 
