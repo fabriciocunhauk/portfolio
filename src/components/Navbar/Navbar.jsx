@@ -47,7 +47,7 @@ const Navbar = () => {
                     <ul>
                         <li><a href="https://www.linkedin.com/in/fabricio-cunha-7b7392162" rel="noopener noreferrer" target="_blank">Linkedin</a></li>
                         <li><a href="https://github.com/fabriciocunhauk" rel="noopener noreferrer" target="_blank">GitHub</a></li>
-                        <li><a href="https://www.instagram.com/fabriciocunhauk" rel="noopener noreferrer" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.instagram.com/fabsdev" rel="noopener noreferrer" target="_blank">Instagram</a></li>
                     </ul>
                 </div>
                 <Logo className="burger-svg" onClick={handleMenu} />
