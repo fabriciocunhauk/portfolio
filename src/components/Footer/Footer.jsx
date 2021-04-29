@@ -2,7 +2,7 @@ import React from 'react';
 import locationIcon from '../../images/icons/location.svg';
 import emailIcon from '../../images/icons/email.svg';
 import phoneIcon from '../../images/icons/phone.svg';
-import myCv from '../../assets/Download-file/Fabricio_Cunha_04.2.pdf';
+import myCv from '../../assets/Download-file/Fabricio-Resume.pdf';
 
 import './footer-styles.scss';
 
@@ -17,7 +17,14 @@ const Footer = () => {
                     <a className="contact-link" href="mailto:fabriciocunhadeveloper@gmail.com"><img src={emailIcon} alt="email" />fabriciocunhadeveloper@gmail.com</a>
                 </div>
             </div>
-            <a href={myCv} className="btn-download" target="_blank" rel="noopener noreferrer" download="Fabricio-Cunha-CV.pdf">Download CV</a>
+            <a
+                href={myCv}
+                className="btn-download"
+                target="_blank"
+                rel="noopener noreferrer"
+                download="Fabricio-Cunha-CV.pdf">
+                Download CV
+                </a>
         </footer>
     )
 }
