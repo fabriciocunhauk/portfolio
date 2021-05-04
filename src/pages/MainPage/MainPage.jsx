@@ -20,7 +20,7 @@ const MainSection = () => {
                     <Typical
                             wrapper="b"
                             steps={[
-                                1000,
+                                3000,
                                 " I'm Fabricio Cunha",
                             ]}
                         />
@@ -29,7 +29,7 @@ const MainSection = () => {
                         <Typical
                             wrapper="b"
                             steps={[
-                                3000,
+                                4500,
                                 "A Frontend Developer",
                             ]}
                         />
