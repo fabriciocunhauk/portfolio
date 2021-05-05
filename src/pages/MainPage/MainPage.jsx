@@ -9,7 +9,7 @@ import './main-page.scss';
 
 const MainSection = () => {
     return (
-        <section>
+        <div>
             <a href="https://api.whatsapp.com/send?phone=447453155169&text=Hi," className="float" rel="noreferrer" target="_blank">
                 <i className="fa fa-whatsapp my-float"></i>
             </a>
@@ -39,7 +39,7 @@ const MainSection = () => {
             <AboutSection />
             <ProjectsSection />
             <ContactSection />
-        </section>
+        </div>
     )
 }
 

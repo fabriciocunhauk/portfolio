@@ -18,21 +18,21 @@ const Navbar = () => {
 
     const handleMenu = () => {
         if (!sideMenu) {
-            menuOpen()
+            menuIsOpen()
             setSideMenu(true);
         } else {
-            menuClose();
+            menuIsClose();
             setSideMenu(false);
         }
     };
 
-    const menuOpen = () => {
+    const menuIsOpen = () => {
         const menuContainer = document.querySelector(".side-menu-container");
         menuContainer.style.width = "300px";
         menuContainer.style.height = "80%";
     }
 
-    const menuClose = () => {
+    const menuIsClose = () => {
         const menuContainer = document.querySelector(".side-menu-container");
         menuContainer.style.width = "0";
         menuContainer.style.height = "0";
@@ -49,7 +49,10 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Logo className="burger-svg" onClick={handleMenu} />
-                <SideMenu className="side-menu-container" />
+                <SideMenu
+                    closeMenuByLinkClick={handleMenu}
+                    className="side-menu-container"
+                />
             </nav>
         </header>
     )
