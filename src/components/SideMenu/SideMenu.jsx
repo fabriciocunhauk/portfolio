@@ -6,9 +6,9 @@ import linkedinLink from '../../images/icons/linkedin.svg';
 import gitHubLink from '../../images/icons/github.svg';
 import instagramLink from '../../images/icons/instagram.svg';
 
-const SideMenu = ({ closeMenuByLinkClick }) => {
+const SideMenu = ({ closeMenuByLinkClick, myRef }) => {
     return (
-        <nav className="side-menu-container">
+        <nav ref={myRef} className="side-menu-container">
             <ul className="side-menu-button-container">
                 <li className="side-menu-button"><Link onClick={closeMenuByLinkClick} className="link-button" to="about-section">Skills</Link></li>
                 <li className="side-menu-button"><Link onClick={closeMenuByLinkClick} className="link-button" to="projects-section">Projects</Link></li>

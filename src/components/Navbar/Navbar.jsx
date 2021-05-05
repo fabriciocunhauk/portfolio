@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { ReactComponent as Logo } from '../../images/burger-menu.svg';
 import SideMenu from '../SideMenu/SideMenu';
 import './navbar-styles.scss';
@@ -38,6 +38,22 @@ const Navbar = () => {
         menuContainer.style.height = "0";
     };
 
+    let menuRef = useRef();
+
+    useEffect(() => {
+        let closeMenuWhenClickOutside = (event) => {
+            if (!menuRef.current.contains(event.target)) {
+                menuIsClose()
+            }
+        }
+
+        document.addEventListener("mousedown", closeMenuWhenClickOutside)
+
+        return () => {
+            document.removeEventListener("mousedown", closeMenuWhenClickOutside)
+        }
+    }, []);
+
     return (
         <header>
             <nav className={navbarBg ? "navbar active" : "navbar"}>
@@ -50,6 +66,7 @@ const Navbar = () => {
                 </div>
                 <Logo className="burger-svg" onClick={handleMenu} />
                 <SideMenu
+                    myRef={menuRef}
                     closeMenuByLinkClick={handleMenu}
                     className="side-menu-container"
                 />
