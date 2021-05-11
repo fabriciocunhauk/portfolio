@@ -5,10 +5,13 @@ import './side-menu.scss';
 import linkedinLink from '../../images/icons/linkedin.svg';
 import gitHubLink from '../../images/icons/github.svg';
 import instagramLink from '../../images/icons/instagram.svg';
+import { ReactComponent as ClosingLogo } from '../../images/x-mark.svg';
 
-const SideMenu = ({ closeMenuByLinkClick, myRef }) => {
+
+const SideMenu = ({ closeMenuByLinkClick, myRef, handleClosingButton }) => {
     return (
         <nav ref={myRef} className="side-menu-container">
+            <ClosingLogo className="side-menu-close-button" onClick={handleClosingButton} />
             <ul className="side-menu-button-container">
                 <li className="side-menu-button"><Link onClick={closeMenuByLinkClick} className="link-button" to="about-section">Skills</Link></li>
                 <li className="side-menu-button"><Link onClick={closeMenuByLinkClick} className="link-button" to="projects-section">Projects</Link></li>

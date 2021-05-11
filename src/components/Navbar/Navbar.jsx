@@ -29,13 +29,20 @@ const Navbar = () => {
     const menuIsOpen = () => {
         const menuContainer = document.querySelector(".side-menu-container");
         menuContainer.style.width = "300px";
-        menuContainer.style.height = "80%";
+        menuContainer.style.height = "590px";
+
+        const burgerSvg = document.querySelector(".burger-svg");
+        burgerSvg.style.width = "0";
     }
 
     const menuIsClose = () => {
         const menuContainer = document.querySelector(".side-menu-container");
         menuContainer.style.width = "0";
         menuContainer.style.height = "0";
+
+        const burgerSvg = document.querySelector(".burger-svg");
+        burgerSvg.style.transition = "all .4s ease-in-out";
+        burgerSvg.style.width = "50px";
     };
 
     let menuRef = useRef();
@@ -43,7 +50,7 @@ const Navbar = () => {
     useEffect(() => {
         let closeMenuWhenClickOutside = (event) => {
             if (!menuRef.current.contains(event.target)) {
-                menuIsClose()
+                menuIsClose();
             }
         }
 
@@ -52,7 +59,7 @@ const Navbar = () => {
         return () => {
             document.removeEventListener("mousedown", closeMenuWhenClickOutside)
         }
-    }, []);
+    });
 
     return (
         <header>
@@ -64,11 +71,13 @@ const Navbar = () => {
                         <li><a href="https://www.instagram.com/fabsdev" rel="noopener noreferrer" target="_blank">Instagram</a></li>
                     </ul>
                 </div>
-                <Logo className="burger-svg" onClick={handleMenu} />
+                <div className="transition-div">
+                    <Logo className="burger-svg" onClick={handleMenu} />
+                </div>
                 <SideMenu
                     myRef={menuRef}
                     closeMenuByLinkClick={handleMenu}
-                    className="side-menu-container"
+                    handleClosingButton={handleMenu}
                 />
             </nav>
         </header>
