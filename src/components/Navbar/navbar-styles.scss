@@ -10,8 +10,12 @@
     position: fixed;
     z-index: 3;
 
+    .transition-div {
+        width: 50px;
+        margin-right: 20px;
+    }
+
     .burger-svg {
-        margin: auto 30px;
         fill: $white-color;
         cursor: pointer;
         z-index: 5;
