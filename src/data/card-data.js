@@ -7,13 +7,14 @@ const cardUrls = [
         github: "https://github.com/fabriciocunhauk/Projeto-chacara-colonia-malhada"
 
     },
+
     {
         id: 2,
-        name: "A touch of angels",
-        imgURL: "https://github.com/fabriciocunhauk/a-touch-of-angels/raw/master/assets/images/a%20touch%20of%20angels%20cleaning.PNG",
-        link: "https://fabriciocunhauk.github.io/a-touch-of-angels",
-        github: "https://github.com/fabriciocunhauk/a-touch-of-angels"
-
+        name: "Movie Search",
+        imgURL:
+            "https://github.com/fabriciocunhauk/React-Movies-Search/raw/master/src/assets/images/front-page.PNG",
+        link: "https://react-movies-search-alpha.vercel.app",
+        github: "https://github.com/fabriciocunhauk/React-Movies-Search"
     },
     {
         id: 3,
@@ -22,9 +23,7 @@ const cardUrls = [
         link: "https://react-crown-clothing-ecommerce.herokuapp.com/",
         github: "https://github.com/fabriciocunhauk/React-crown-clothing"
 
-    },
-
-    {
+    }, {
         id: 4,
         name: "Interflix",
         imgURL:
@@ -46,14 +45,13 @@ const cardUrls = [
             "https://github.com/Rocketseat/semana-omnistack-11/raw/master/.github/bethehero.png",
         link: "https://be-the-hero-oficial.netlify.com/",
         github: "https://github.com/fabriciocunhauk/be-the-hero"
-    },
-    {
+    }, {
         id: 7,
-        name: "Movie Search",
-        imgURL:
-            "https://github.com/fabriciocunhauk/React-Movies-Search/raw/master/src/assets/images/front-page.PNG",
-        link: "https://react-movies-search-alpha.vercel.app",
-        github: "https://github.com/fabriciocunhauk/React-Movies-Search"
+        name: "A touch of angels",
+        imgURL: "https://github.com/fabriciocunhauk/a-touch-of-angels/raw/master/assets/images/a%20touch%20of%20angels%20cleaning.PNG",
+        link: "https://fabriciocunhauk.github.io/a-touch-of-angels",
+        github: "https://github.com/fabriciocunhauk/a-touch-of-angels"
+
     },
     {
         id: 8,
