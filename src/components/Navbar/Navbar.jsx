@@ -18,31 +18,10 @@ const Navbar = () => {
 
     const handleMenu = () => {
         if (!sideMenu) {
-            menuIsOpen()
             setSideMenu(true);
         } else {
-            menuIsClose();
             setSideMenu(false);
         }
-    };
-
-    const menuIsOpen = () => {
-        const menuContainer = document.querySelector(".side-menu-container");
-        menuContainer.style.width = "300px";
-        menuContainer.style.height = "590px";
-
-        const burgerSvg = document.querySelector(".burger-svg");
-        burgerSvg.style.width = "0";
-    }
-
-    const menuIsClose = () => {
-        const menuContainer = document.querySelector(".side-menu-container");
-        menuContainer.style.width = "0";
-        menuContainer.style.height = "0";
-
-        const burgerSvg = document.querySelector(".burger-svg");
-        burgerSvg.style.transition = "all .4s ease-in-out";
-        burgerSvg.style.width = "50px";
     };
 
     let menuRef = useRef();
@@ -50,7 +29,7 @@ const Navbar = () => {
     useEffect(() => {
         let closeMenuWhenClickOutside = (event) => {
             if (!menuRef.current.contains(event.target)) {
-                menuIsClose();
+                setSideMenu(false);
             }
         }
 
@@ -68,13 +47,17 @@ const Navbar = () => {
                     <ul>
                         <li><a href="https://www.linkedin.com/in/fabricio-cunha-7b7392162" rel="noopener noreferrer" target="_blank">Linkedin</a></li>
                         <li><a href="https://github.com/fabriciocunhauk" rel="noopener noreferrer" target="_blank">GitHub</a></li>
-                        <li><a href="https://www.instagram.com/fabsdev" rel="noopener noreferrer" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.instagram.com/fabs.dev" rel="noopener noreferrer" target="_blank">Instagram</a></li>
                     </ul>
                 </div>
                 <div className="transition-div">
-                    <Logo className="burger-svg" onClick={handleMenu} />
+                    <Logo
+                        className={sideMenu ? "burger-svg-hide" : "burger-svg"}
+                        onClick={handleMenu}
+                    />
                 </div>
                 <SideMenu
+                    toggleSideMenu={sideMenu}
                     myRef={menuRef}
                     closeMenuByLinkClick={handleMenu}
                     handleClosingButton={handleMenu}

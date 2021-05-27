@@ -8,9 +8,9 @@ import instagramLink from '../../images/icons/instagram.svg';
 import { ReactComponent as ClosingLogo } from '../../images/x-mark.svg';
 
 
-const SideMenu = ({ closeMenuByLinkClick, myRef, handleClosingButton }) => {
+const SideMenu = ({ closeMenuByLinkClick, myRef, handleClosingButton, toggleSideMenu }) => {
     return (
-        <nav ref={myRef} className="side-menu-container">
+        <nav ref={myRef} className={toggleSideMenu ? "side-menu-container side-menu-container-open" : "side-menu-container"}>
             <ClosingLogo className="side-menu-close-button" onClick={handleClosingButton} />
             <ul className="side-menu-button-container">
                 <li className="side-menu-button"><Link onClick={closeMenuByLinkClick} className="link-button" to="about-section">Skills</Link></li>

@@ -19,6 +19,12 @@
         fill: $white-color;
         cursor: pointer;
         z-index: 5;
+        transition: .4s ease-in-out;
+        width: 50px
+    }
+
+    .burger-svg-hide {
+        width: 0;
     }
 
     .closing-button-slider {
@@ -56,12 +62,6 @@
                 border-bottom: 4px solid $white-color;
             }
         }
-    }
-
-    .side-menu-container {
-        display: flex;
-        width: 0;
-        height: 0;
     }
 }
 
