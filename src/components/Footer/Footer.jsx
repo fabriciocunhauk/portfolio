@@ -2,7 +2,7 @@ import React from 'react';
 import locationIcon from '../../images/icons/location.svg';
 import emailIcon from '../../images/icons/email.svg';
 import phoneIcon from '../../images/icons/phone.svg';
-import myCv from '../../assets/Download-file/Fabricio-Resume.pdf';
+import myCv from '../../assets/Download-file/frontend-reactjs.pdf';
 
 import './footer-styles.scss';
 
@@ -24,7 +24,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 download="Fabricio-Cunha-CV.pdf">
                 Download CV
-                </a>
+            </a>
         </footer>
     )
 }
