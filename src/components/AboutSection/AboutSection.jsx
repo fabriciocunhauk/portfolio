@@ -14,7 +14,7 @@ const AboutSection = () => {
                     )}
                 </div>
                 <div className="skill-container-side-text">
-                    <h1 className="skill-container-side-text-h1">JavaScript | HTML | CSS | SCSS/SASS | Node.js | React.js | Redux | SQL | NoSQL | REST Api's | Git</h1>
+                    <h1 className="skill-container-side-text-h1">JavaScript | Typescript | HTML | CSS | SCSS/SASS | React.js | Next.js | Node.js |  Redux | SQL | NoSQL | REST Api's | Git</h1>
                     <p>Highly motivated, a self-starting developer seeking to launch a career building web applications and services. Familiar with the development and deployment process for many web-based technologies.</p>
                 </div>
             </div>

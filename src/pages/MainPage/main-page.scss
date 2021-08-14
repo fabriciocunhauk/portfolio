@@ -57,6 +57,11 @@
     font-size: 30px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
+    transition: all .3s ease-in-out;
+}
+
+.float:hover {
+    transform: translateY(-5px);
 }
 
 .my-float {
