@@ -48,7 +48,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
-        width: 70%;
+        width: 100%;
 
         .skill-container-content-svg {
             display: flex;
@@ -57,6 +57,10 @@
             justify-content: space-evenly;
             padding: 10px;
             max-width: 300px;
+            margin-left: -200px;
+            opacity: 0;
+            transition: all .6s ease-in-out;
+
 
             a {
                 box-shadow: 1px 1px 10px black;
@@ -71,11 +75,19 @@
             }
         }
 
+        .skill-container-content-svg-animation {
+            margin-left: 0px;
+            opacity: 10;
+        }
+
         .skill-container-content-svg-image:hover {
             transform: scale(1.1);
         }
 
         .skill-container-side-text {
+            margin-right: -200px;
+            transition: all .6s ease-in-out;
+            opacity: 0;
 
             .skill-container-side-text-h1 {
                 width: 325px;
@@ -89,6 +101,11 @@
             }
         }
 
+        .skill-container-side-text-animation {
+            margin-right: 0px;
+            opacity: 10;
+        }
+
         @media (max-width: 700px) {
             .skill-container-side-text {
                 margin: 30px;
@@ -96,10 +113,15 @@
         }
 
         @media (max-width: 1400px) {
-
             .skill-container-side-text {
                 width: 400px;
             }
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .skill-container-content {
+            width: 70%;
         }
     }
 
