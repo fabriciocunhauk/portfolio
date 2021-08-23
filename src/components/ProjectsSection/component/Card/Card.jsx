@@ -18,7 +18,7 @@ const Card = ({ imgURL, name, link, github }) => {
     window.addEventListener('scroll', handleScroll);
 
     return (
-        <div className={cardAnimationChange ? "card card__animation" : "card"}>
+        <div className={cardAnimationChange ? "card card card__animation" : "card"}>
             <div className="card-project-header">
                 <img className="card-image" src={imgURL} alt="" />
             </div>
