@@ -8,7 +8,7 @@ const Card = ({ imgURL, name, link, github }) => {
     const [cardAnimationChange, setCardAnimationChange] = useState(false);
 
     const handleScroll = () => {
-        if (window.scrollY >= 1100) {
+        if (window.scrollY >= 1200) {
             setCardAnimationChange(true);
         } else {
             setCardAnimationChange(false);
