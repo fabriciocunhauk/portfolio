@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import githubIcon from '../../../../images/icons/github-2.svg';
 import globeIcon from '../../../../images/icons/globe.svg';
 
 import './card.scss';
 
 const Card = ({ imgURL, name, link, github }) => {
+    const [cardAnimationChange, setCardAnimationChange] = useState(false);
+
+    const handleScroll = () => {
+        if (window.scrollY >= 1100) {
+            setCardAnimationChange(true);
+        } else {
+            setCardAnimationChange(false);
+        }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
     return (
-        <div className="card">
+        <div className={cardAnimationChange ? "card card__animation" : "card"}>
             <div className="card-project-header">
                 <img className="card-image" src={imgURL} alt="" />
             </div>
