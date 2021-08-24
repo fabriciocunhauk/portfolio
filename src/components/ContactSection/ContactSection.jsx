@@ -4,9 +4,19 @@ import './contact-section.scss';
 
 const ContactSection = () => {
     const [status, setStatus] = useState('');
+    const [contactAnimation, setContactAnimation] = useState(false);
 
-    function submitForm(ev) {
-        console.log(ev);
+    const handleScroll = () => {
+        if (window.scrollY >= 3250) {
+            setContactAnimation(true);
+        } else {
+            setContactAnimation(false);
+        }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    const handleSubmit = (ev) => {
         ev.preventDefault();
         const form = ev.target;
         const data = new FormData(form);
@@ -26,10 +36,18 @@ const ContactSection = () => {
     }
 
     return (
-        <section className="contact-section-container" id="contact-section">
+        <div className="contact-section-container" id="contact-section">
             <h1>Lets talk</h1>
             <hr />
-            <form action="https://formspree.io/f/mpzogvej" method="POST" onSubmit={submitForm}>
+            <form className={
+                contactAnimation
+                    ? "contact-form contact-form-animation"
+                    : "contact-form"
+            }
+                action="https://formspree.io/f/mpzogvej"
+                method="POST"
+                onSubmit={handleSubmit}
+            >
                 <fieldset name="portfolio-form">
                     <input id="name" type="text" name="Name" placeholder="Name" required />
                     <input type="email" id="email" name="email" placeholder="Enter email" required />
@@ -44,7 +62,7 @@ const ContactSection = () => {
                             : <button>Submit</button>
                 }
             </form>
-        </section>
+        </div>
     )
 }
 
