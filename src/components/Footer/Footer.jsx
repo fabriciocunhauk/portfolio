@@ -1,7 +1,7 @@
 import React from 'react';
-import locationIcon from '../../images/icons/location.svg';
-import emailIcon from '../../images/icons/email.svg';
-import phoneIcon from '../../images/icons/phone.svg';
+import locationIcon from '../../assets/images/icons/location.svg';
+import emailIcon from '../../assets/images/icons/email.svg';
+import phoneIcon from '../../assets/images/icons/phone.svg';
 import myCv from '../../assets/Download-file/frontend-reactjs.pdf';
 
 import './footer-styles.scss';

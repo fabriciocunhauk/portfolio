@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import githubIcon from '../../../../images/icons/github-2.svg';
-import globeIcon from '../../../../images/icons/globe.svg';
+import githubIcon from '../../../../assets/images/icons/github-2.svg';
+import globeIcon from '../../../../assets/images/icons/globe.svg';
 
 import './card.scss';
 

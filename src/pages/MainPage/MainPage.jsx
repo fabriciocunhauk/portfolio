@@ -1,5 +1,5 @@
 import React from 'react';
-import mainBg from '../../images/pexels-neo-2653362.jpg';
+import mainBg from '../../assets/images/pexels-neo-2653362.jpg';
 import AboutSection from '../../components/AboutSection/AboutSection';
 import ProjectsSection from '../../components/ProjectsSection/ProjectSection';
 import Typical from 'react-typical';

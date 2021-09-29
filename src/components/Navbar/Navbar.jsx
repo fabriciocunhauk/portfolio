@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { ReactComponent as Logo } from '../../images/burger-menu.svg';
+import { ReactComponent as Logo } from '../../assets/images/burger-menu.svg';
 import SideMenu from '../SideMenu/SideMenu';
 import './navbar-styles.scss';
 

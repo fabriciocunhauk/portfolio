@@ -1,15 +1,15 @@
-import javascript from '../images/SVG/javascript-4.svg';
-import html from '../images/SVG/html5.svg';
-import css from '../images/SVG/css3.svg';
-import node from '../images/SVG/node-js-logo.svg';
-import react from '../images/SVG/react-1.svg';
-import redux from '../images/SVG/redux.svg';
-import git from '../images/SVG/git.svg';
-import github from '../images/SVG/github-octocat.svg';
-import sql from '../images/SVG/sql.svg';
-import graphQL from '../images/SVG/graphql.svg';
-import sass from '../images/SVG/sass.svg';
-import mongoDB from '../images/SVG/mongodb.svg';
+import javascript from '../assets/images/SVG/javascript-4.svg';
+import html from '../assets/images/SVG/html5.svg';
+import css from '../assets/images/SVG/css3.svg';
+import node from '../assets/images/SVG/node-js-logo.svg';
+import react from '../assets/images/SVG/react-1.svg';
+import redux from '../assets/images/SVG/redux.svg';
+import git from '../assets/images/SVG/git.svg';
+import github from '../assets/images/SVG/github-octocat.svg';
+import sql from '../assets/images/SVG/sql.svg';
+import graphQL from '../assets/images/SVG/graphql.svg';
+import sass from '../assets/images/SVG/sass.svg';
+import mongoDB from '../assets/images/SVG/mongodb.svg';
 
 export const mySvgData = [
     {
