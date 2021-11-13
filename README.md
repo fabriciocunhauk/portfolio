@@ -1,3 +1,3 @@
 Website: https://fabriciocunha.co.uk
 
-<img src="./src/images/front-page.PNG" alt="front page">
+<img src="./src/assets/images/front-page.PNG" alt="front page">
