@@ -1,7 +1,7 @@
 const cardUrls = [
     {
         id: 1,
-        name: "Countryside house to rent",
+        name: "Colonia Malhada",
         imgURL: "https://github.com/fabriciocunhauk/Projeto-chacara-colonia-malhada/raw/master/src/images/front-page.PNG",
         link: "https://projeto-chacara-colonia-malhada.vercel.app",
         github: "https://github.com/fabriciocunhauk/Projeto-chacara-colonia-malhada"
@@ -9,14 +9,14 @@ const cardUrls = [
     },
     {
         id: 2,
-        name: "Todo app React",
+        name: "Todo React",
         imgURL: "https://github.com/fabriciocunhauk/react-to-do-list/raw/master/src/assets/images/desktop-preview.jpg",
         link: "https://react-to-do-list-seven.vercel.app",
         github: "https://github.com/fabriciocunhauk/react-to-do-list"
     },
     {
         id: 3,
-        name: "Crown Clothing E-Comerce",
+        name: "E-Comerce",
         imgURL: "https://github.com/fabriciocunhauk/React-crown-clothing/raw/master/src/assets/Readme%20img.png",
         link: "https://react-crown-clothing-ecommerce.herokuapp.com/",
         github: "https://github.com/fabriciocunhauk/React-crown-clothing"
@@ -31,14 +31,14 @@ const cardUrls = [
     },
     {
         id: 5,
-        name: "Loopstudios landing page",
+        name: "Loopstudios",
         imgURL: "https://github.com/fabriciocunhauk/LOOPSTUDIO-LANDING-PAGE/raw/master/public/assets/design/desktop-preview.jpg",
         link: "https://fabriciocunhauk.github.io/LOOPSTUDIO-LANDING-PAGE",
         github: "https://github.com/fabriciocunhauk/LOOPSTUDIO-LANDING-PAGE"
     },
     {
         id: 6,
-        name: "Movie Search",
+        name: "Movies Search",
         imgURL:
             "https://github.com/fabriciocunhauk/React-Movies-Search/raw/master/src/assets/images/front-page.PNG",
         link: "https://react-movies-search-alpha.vercel.app",
@@ -54,7 +54,7 @@ const cardUrls = [
     },
     {
         id: 8,
-        name: "Natours-with-CSS-and-Sass",
+        name: "Natours",
         imgURL:
             "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEhUQEBAVFRUQDw8PFRcVFRUVFQ8VFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFQ8QFy0dHSUtKy03LSsrKystLS0wMisvMC0tKy0tKzAtKzErKy4rLS0tLS0tKystKy0rKy0rKzErLf/AABEIAKgBKwMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAAAAQIDBAUGB//EAD0QAAIBAgMDCQUGBQUBAAAAAAABAgMRBBIhMUFRBQYTMmFxgZGxInKhssFCUpLR0vAjQ4Ki4QdEVGJjM//EABkBAQEBAQEBAAAAAAAAAAAAAAEAAgMEBf/EACkRAQEBAAEDAwIFBQAAAAAAAAABEQIDBBIhMUEFUUJhgZGhFCJScfD/2gAMAwEAAhEDEQA/APQuAj1aVSL/AIkpRzSstsVNffzKTSafHbZvbsPmSa+RJrzLj8fzOrGySXRwcXFvP7LutlopvfJXlfvWw4xzBfRcZd3iaRrW3LyX1MLlFjLbpnub8/gNV339+vqYJlIsGtlXfG3dp6BmfEyQ0ODWqka06j2XOdItIMWuiMpFRbvZmEX2msX2ozYZXQVmMVMbkENbXC5jmC5rBrbMGYyTKuI1bYXMXIM44Na3DMZZxZyxa2uK5i5snMODXRcDFVC1NEtVcVwESFwuJsTZI7ktkuRLYjV5jrwXJ9WtrTg2lpe6S7rvaebJn39GThQpKja3Rx+zOV7pO/sp7bnTp8PK+r0dv0p1eV34fGY7DVKTy1YON9mxqXc07M5HPtZ9lzklfBynUXtRlFx0lHXOlopJPY3uPgunY8+HjWO46c6XLJWQCA8xMLiQxBjJuFxCkUyEx3ELuNMhFZSC84ZiVEYhamXGVyIR4mkafALiOLNqaFCGg7WsZ1pa48BJlNmZQVQyFJjTNBT1IZSCSJVImAGmSExslkAJsLCsIONRobxD4EAyw7VKtxReZGDJbLFroc0RKZhKZnKqPiNbTmd/JnOWvh45EozhrZSvePc1u7DxZ1mYymzfGWHj1OXC7xuPV5Z5frYm3SWUYu6jG9r8XfVs8p1jKTJNLlzvK7brsALgeV3NMBDEAAKQgkNMBoQdylISYpEFJlXIiy2WBcahpn4HPE1ZYtbRm/A0izlhJmyZmwytpsDNvQIyKRWrEwlYBAuWiEy8wGJkibGmYVh0YSQNDE5EUNEscpGcpGoxTZDYnInMaxnSlMylM6Y077mX0CH0Tz5SM2z0pYZHFXlTWiV3xvp/k1KHO2Q2Nshs0gyQbESdoXAR5XpUAgQhSHclMpCDGIaEAokogcUelKcaVOk404SdWMpylOKlsnKORX2Wy6211PNR00MdUgssZaXzWcYySfFZk7PtQw8eUi+VKMYVWoqycac8v3M8Iycbvg3YuvCPQ0ZJayddN75WlG1/B/E5Jzcm5Sbbbbbb1be1tm+FxtSmrQlZXzWajK0vvRzJ5X2rUfT1XlNv5teVoRjXqRikkqkkktiS3HVh638CUujptwnRgm6cW7SU7301fsrU8yE7tt6tu93teu1lwqvK430bjJri43t8z8w31rXll8vvqov6Hr11CVarR6OCjDp3GUYqLp9Gm4ttbVpbXiePFnVW5QqzTUpdbWVoxjn1v7TilfxCXBw5ST1ThYKUoxbtmlFX4XaTZ6Ecs6sqDpxjFdLFNK04ZFJqTltfV1voePex1y5SqyTTltVm7LNJcHK12u9lPRcOcnuwpxu0m7XaV+B6scsq7w/RxUc86d7e3HLf28+1vS/A8iUjeWPqtZXPRxyt2jmcfuudszXZceK485HNc9vlWlGMamkLKVOEMkbShKylLO0lo1fbe/gzxYxudUq03mbl/wDRJS0XtWtbTsstSmYOHLJZ/wB8s8JVipxdRXipLN3fUvlJP2Zfw2pKWWVOLipWdneLSs13eZNFOLUouzWxl16jm05O9lZJJRSW3SMUkhmYN/tscOrKVJnSkBMYxjQW80jGxQiQIrTypvgWTUjdNcVYk8jEYhyer04bjnbNcTScXZ+HaYM6yMBslg2K4omwAVyTtAQHlelQkNiQhRSIKEGxkJlxYsq3AhJMtQJJRpnWVK2qk3ffqkrfB+YRpdprGkuAaixNRSm5Riop20WxabjoWITpqHRJNbZ21au3w91eD4kKxV0Hk16+rPEy6uWGVxcU2n1tILX8Lf8AU+99EMQlUlPok1K9o6Wje2zTcZNriNl5VbQqqyZcuubNm32tawUai1ur3jl4ZXdO+zs+Jm6i3aiuLOtnNez7N8snJ/8AZezo/J+YQxCvNuC9uMkktFC7Tuu61vEiMiKiEbWlKolJNq6Uk2nvs9jN6VaGfN0aaypZdy9lRb9X3s4bizCJyx6kJpRccq1a1e1W4FSrL2fZXsbeM9d7PMhiWu06qdRPYTU5uuniIqbk6aaf2XsWqenlbxMo1Flccurad96sZiJeVMQCJkxAAoAJs87F4/dDz/IZNFrHlFPO7vhbsONscpX1ZLOkYAmBNxRtkhcVyTvzAhDueWPSAQAkIMoSiWkIKMTSMAQpVHuQJqkVdLecrrPiSpX/AMlidnS8DJ1m9jMb7uAs3b4IsGuhVUtNr8iend9EZOXHU13DiXnZNm2TD93KldMcZtfS80eSaVZzlUWZQypR4t31du4+kqcj4Vf7dPuTf1PgeTeUqtCWalKzas09VJdqPUfPDFcKf4X+o68bxk9Xt6HX6PHhnLj6/wCn065Kwv8Axv7X+Y5cl4X/AI39r/M+XXPHE/8An+F/qE+eOJ4U/wAL/Ua8uP2dv6rt/wDH+H1Vbm9hZxaVJRutGrpxZ+d1Y2bjfqycex2drnq4jnZi5xcbxjfS8Y2fg23Y8JyM8svs8fc9Xp888JjthhnvOiNNLceYqz4vzNIYyS26mMrzSx6IrnPSxcXo9H+95uGNaYhXC5IxXE2TccGnPX96PvPKxGFa1t9T02yWzU9GLXhtEtnq1sNGWuztX1PLqqzaun2reblCBXExETEAhDuuNCEeR6mkYlmeYWcWW2YHIxuSxTbpUS6hHYJEFuQovsBsEKU5aDjNb9vbqRZFbBwKj+9DaEjGMhR2jjNrV7RzT2mcnxY1J7+8QqTurkORMpE3LAsEyLjzCF3FYIhfcSIm5aizObXHyFC56OBqNrXdsOChTcnpu4npUYZVb9sqo1uK5NxNmcWquS2S2ROoltdhwa0bMMTiFFdr2IwrY1bI6/Q4Jzb1buakCqtaUtr8N3kZNgxXNEgBiJABXEKegFhDPK9BDAViQC43EliDuCe8lsBS1wehUbb0Z5gzjga30ZLZCqdgOp2IWV3GmR0r7BdKxDok9/78yUzLpWLpHxLA1cWCg+zxZjKTe1k3HE6HbfJeonKPaYXC44Gqq8ES6j4ip03LYjupYSK26+hBxwhKWxNnTTwP3n5fmdaYZg1acYpbBtkXFcgu5LZnOoltZw4jFt6R0XxY4HRiMXbRbfgjgqTb1bIzCuONGmJgJsUGJibFcUYgESACAQ7xk3FmPK9KykZXKuIaNmdguCkQJG8EY5i4SJMp7X3sQ6m0k0DuAhCFAIVxB3AQCDuFxAKNK+iPSw+DUVmlq/gjHCQy6tav4HS6hm6NirhczchZixnWlxXM8xlPEpDgdDZx4jF7o+f5GVfFNq2xEU6UpdSLl7qb9BkMiXJvayGz0KPImLn1cNV8YOPxlY7KPNDHS20VH3pwXo2ax1nS6l9uN/Z4jkSz6qjzExT61SlHxlJ/KdlL/T77+J/DT+rl9Cx0nada/hfEXA/RKXMLDLrVKsvGMV8p20eZ2Bj/ACXL3pzfwTsOOs7Dq37R+WCufsVHkHCR6uGpeMIt+bO6lRjHqxjHuSXoWOk+ncvnk/GKPJ1efUoVZd1Ob9Ed1LmvjpbMNP8AqcY/M0frlwF1n07h88q/MKXMbGvaqcfen+lM6o/6fYjfXpeU38bH6KBOk7Doz739X4uAAeV8w7jJuFyCmSwBCAioshsSlYUuaIN6VOUurFy7k36HRT5ExUurh6r74NLzYwzjb7R54Ht0eaWOl/Jy+9OC9Hc7aXMbEvrTpR8ZN/Kaytzt+rfbjXy9wPtKXMF/bxP4af1cjtpcxcMutUqy8YxXyj410nZ9a/Gfq/PgP06lzQwUf5Tl705+iaOylyFhI7MNS8YKXrcfF0nYdT5sfkqd9Eexg+R6j16Ocn2Rk0vgfp9KjCPVjGPckvQ0K8fzdJ9Pnzy/h+drm/iX1aMvG0fmaOinzTxT2qEe+f6Uz7wBnFufT+l82vjKXMyr9qtBd0ZS9bHVS5l0/tV5v3Yxj63PqQHI6TsujPw/zXgU+aOFW3PLvnb5Ujopc2cFHZh4v3nKfzNnrgOOvHt+lPbjP2ctHk6hDqUace6EV6I6kAE6ySewAAIgAAkAACQAAJAAAkAACT8epYCtLq0akvdhN+iOylzcxstmHn/Vlj8zQAcpwj5/T7Pjym2120uZmMe1U4+9P9KZ2UeYdX7deC92MpetgA14R1nZ9Kfm7aXMOn9uvN+7GMfW52UeZeEjt6SXfO3ypAA+MdJ23Sn4XZS5s4KOzDxfvOUvmbO2jydQh1KNOPdCK+gAOR0nT4z2kdSAAFsAAEgAASAABIAAEgAASAABIAAEgAASAABIAAEgAASAABIAAEgAASf/2Q==",
         link: "https://fabriciocunhauk.github.io/Natours-with-CSS-and-Sass/",

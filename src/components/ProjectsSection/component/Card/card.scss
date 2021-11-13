@@ -23,8 +23,7 @@
     }
 
     h1 {
-        margin-left: 20px;
-        margin-bottom: 10px;
+        margin-left: 10px;
         font-size: 20px;
         color: black;
     }
@@ -43,15 +42,18 @@
             font-weight: 600;
             width: 100px;
             height: 30px;
-            margin: 5px 10px;
+            margin: 5px;
             transition: .2s ease-in-out;
+        }
+
+        .link-button:first-child {
+            margin-left: 10px;
         }
     
         .link-button:hover {
             transform: scale(1.06);
         }
     }
-
 
     .card-description-icon {
         width: 18px;
