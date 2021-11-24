@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import githubIcon from '../../../../assets/images/icons/github-2.svg';
-import globeIcon from '../../../../assets/images/icons/globe.svg';
+import globeIcon from '../../../../assets/images/icons/chrome.svg';
 
 import './card.scss';
 
@@ -23,8 +23,10 @@ const Card = ({ imgURL, name, link, github }) => {
                 <img className="card-image" src={imgURL} alt="" />
             </div>
             <h1>{name}</h1>
-            {link ? <a href={link} target="_blank" rel="noopener noreferrer"><img className="card-description-icon" src={globeIcon} alt="website" /></a> : null}
-            <a href={github} target="_blank" rel="noopener noreferrer"><img className="card-description-icon" src={githubIcon} alt="github" /></a>
+            <div className="buttons-container">
+            {link ? <a href={link} className="link-button" target="_blank" rel="noopener noreferrer">Website <img className="card-description-icon" src={globeIcon} alt="website" /></a> : null}
+            <a href={github} className="link-button" target="_blank" rel="noopener noreferrer">GitHub <img className="card-description-icon" src={githubIcon} alt="github" /></a>
+            </div>
         </div>
     )
 }

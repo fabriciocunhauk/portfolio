@@ -5,6 +5,7 @@
     width: 380px;
     box-shadow: 1px 1px 10px $white-color;
     background: $white-color;
+    border-radius: 2px;
     opacity: 0%;
     margin-top: 100px;
     transition: all 0.6s ease-in;
@@ -22,23 +23,42 @@
     }
 
     h1 {
-        margin-left: 20px;
-        margin-bottom: 10px;
+        margin-left: 10px;
         font-size: 20px;
         color: black;
     }
 
+    .buttons-container {
+        display: flex;
+        align-items: center;
+        height: 60px;
+    
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            outline: 1px solid black;
+            font-weight: 600;
+            width: 100px;
+            height: 30px;
+            margin: 5px;
+            transition: .2s ease-in-out;
+        }
+
+        .link-button:first-child {
+            margin-left: 10px;
+        }
+    
+        .link-button:hover {
+            transform: scale(1.06);
+        }
+    }
+
     .card-description-icon {
-        width: 30px;
-        margin-left: 20px;
-        margin-bottom: 10px;
-        transition: .2s ease-in-out;
+        width: 18px;
+        margin-left: 10px;
     }
-
-    .card-description-icon:hover {
-        transform: scale(1.2);
-    }
-
 }
 
 .card__animation {
