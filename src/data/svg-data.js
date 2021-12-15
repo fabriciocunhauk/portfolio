@@ -1,6 +1,7 @@
 import javascript from '../assets/images/SVG/javascript-4.svg';
 import html from '../assets/images/SVG/html5.svg';
 import css from '../assets/images/SVG/css3.svg';
+import typescript from '../assets/images/SVG/typescript-2.svg';
 import node from '../assets/images/SVG/node-js-logo.svg';
 import react from '../assets/images/SVG/react-1.svg';
 import redux from '../assets/images/SVG/redux.svg';
@@ -9,7 +10,6 @@ import github from '../assets/images/SVG/github-octocat.svg';
 import sql from '../assets/images/SVG/sql.svg';
 import graphQL from '../assets/images/SVG/graphql.svg';
 import sass from '../assets/images/SVG/sass.svg';
-import mongoDB from '../assets/images/SVG/mongodb.svg';
 
 export const mySvgData = [
     {
@@ -19,28 +19,28 @@ export const mySvgData = [
     },
     {
         id: 2,
-        path: html,
-        link: "https://www.w3schools.com/html"
+        path: typescript,
+        link: "https://www.typescriptlang.org"
     },
     {
         id: 3,
-        path: css,
-        link: "https://www.w3schools.com/css/default.asp"
-    },
-    {
-        id: 4,
-        path: node,
-        link: "https://nodejs.org/en"
-    },
-    {
-        id: 5,
         path: react,
         link: "https://reactjs.org"
     },
     {
+       id: 4,
+       path: html,
+       link: "https://www.w3schools.com/html"
+    },
+    {
+        id: 5,
+        path: css,
+        link: "https://www.w3schools.com/css/default.asp"
+    },
+    {
         id: 6,
-        path: redux,
-        link: "https://redux.js.org"
+        path: sass,
+        link: "https://sass-lang.com"
     },
     {
         id: 7,
@@ -54,8 +54,8 @@ export const mySvgData = [
     },
     {
         id: 9,
-        path: sql,
-        link: "https://www.mysql.com"
+        path: redux,
+        link: "https://redux.js.org"
     },
     {
         id: 10,
@@ -64,12 +64,12 @@ export const mySvgData = [
     },
     {
         id: 11,
-        path: mongoDB,
-        link: "https://www.mongodb.com/cloud/atlas"
+        path: node,
+        link: "https://nodejs.org/en"
     },
     {
         id: 12,
-        path: sass,
-        link: "https://sass-lang.com"
+        path: sql,
+        link: "https://www.mysql.com"
     },
 ]

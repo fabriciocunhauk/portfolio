@@ -26,8 +26,13 @@ const AboutSection = () => {
                     )}
                 </div>
                 <div className={skillAnimation ? "skill-container-side-text skill-container-side-text-animation" : "skill-container-side-text"}>
-                    <h1 className="skill-container-side-text-h1">JavaScript | Typescript | HTML | CSS | SCSS/SASS | React.js | Next.js | Node.js |  Redux | SQL | NoSQL | REST Api's | Git</h1>
-                    <p>Highly motivated, a self-starting developer seeking to launch a career building web applications and services. Familiar with the development and deployment process for many web-based technologies.</p>
+                    <h1 className="skill-container-side-text-h1">
+                        Hey, Im Fabricio Cunha</h1>
+                        <h2>a self-taught front-end developer.</h2>
+                    <p>From the moment I produced "Hello World" in the console of my first application, I knew I was hooked into
+the world of software development. But software development has never been "just a job" for me, it's offered an
+engaging challenge to continually learn and improve my skills in creating high-quality software. What's started
+with a simple "Hello World" has become a full-fledged passion that only gets more exciting as time goes by.</p>
                 </div>
             </div>
         </section>
