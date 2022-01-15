@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { ReactComponent as Logo } from '../../assets/images/burger-menu.svg';
+import { ReactComponent as BurgerLogo } from '../../assets/images/burger-menu.svg';
+import { ReactComponent as Logo } from '../../assets/images/SVG/fabricio-cunha-logo.svg';
 import SideMenu from '../SideMenu/SideMenu';
 import './navbar-styles.scss';
 
@@ -44,6 +45,7 @@ const Navbar = () => {
         <header>
             <nav className={navbarBg ? "navbar active" : "navbar"}>
                 <div className="navigation-container">
+                    <Logo className="personal-logo" />
                     <ul>
                         <li><a href="https://www.linkedin.com/in/fabricio-cunha-7b7392162" rel="noopener noreferrer" target="_blank">Linkedin</a></li>
                         <li><a href="https://github.com/fabriciocunhauk" rel="noopener noreferrer" target="_blank">GitHub</a></li>
@@ -51,7 +53,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="transition-div">
-                    <Logo
+                    <BurgerLogo
                         className={sideMenu ? "burger-svg-hide" : "burger-svg"}
                         onClick={handleMenu}
                     />

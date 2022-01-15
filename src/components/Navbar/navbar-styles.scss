@@ -9,6 +9,48 @@
     height: 80px;
     position: fixed;
     z-index: 3;
+    overflow: hidden;
+
+    .personal-logo {
+        width: 100px;
+        margin-right: 20px;
+    }
+
+    .navigation-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 400px;
+        margin-left: 20px;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            li {
+                margin-top: 20px;
+                height: 40px;
+                margin-right: 20px;
+
+                a {
+                    color: $white-color;
+                    font-weight: bold;
+                }
+
+            }
+
+            li:hover {
+                border-bottom: 4px solid $white-color;
+            }
+        }
+
+        @media (max-width: 767px) {
+            ul {
+                display: none
+            }
+          }
+    }
 
     .transition-div {
         width: 50px;
@@ -35,33 +77,6 @@
         cursor: pointer;
         z-index: 5;
         transition: .6s ease-in-out;
-    }
-
-    .navigation-container {
-        width: 400px;
-        margin-left: 40px;
-
-        ul {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            li {
-                margin-top: 20px;
-                height: 40px;
-                margin-right: 20px;
-
-                a {
-                    color: $white-color;
-                    font-weight: bold;
-                }
-
-            }
-
-            li:hover {
-                border-bottom: 4px solid $white-color;
-            }
-        }
     }
 }
 
