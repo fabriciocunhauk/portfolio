@@ -12,8 +12,9 @@
     overflow: hidden;
 
     .personal-logo {
-        width: 100px;
+        width: 110px;
         margin-right: 20px;
+        cursor: pointer;
     }
 
     .navigation-container {
@@ -32,16 +33,12 @@
                 margin-top: 20px;
                 height: 40px;
                 margin-right: 20px;
-
-                a {
-                    color: $white-color;
-                    font-weight: bold;
-                }
-
+                color: $white-color;
+                font-weight: bold;
             }
 
             li:hover {
-                border-bottom: 4px solid $white-color;
+                border-bottom: 4px solid $primary-color;
             }
         }
 
@@ -83,5 +80,5 @@
 .active {
     background: $black-glass-color;
     z-index: 3;
-    box-shadow: 1px 1px 15px gray;
+    box-shadow: 1px 1px 15px $gray-color;
 }
