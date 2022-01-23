@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import './side-menu.scss';
 
-import linkedinLink from '../../assets/images/icons/linkedin.svg';
-import gitHubLink from '../../assets/images/icons/github.svg';
-import instagramLink from '../../assets/images/icons/instagram.svg';
-import { ReactComponent as ClosingLogo } from '../../assets/images/x-mark.svg';
+import linkedinLink from '../../../../assets/images/icons/linkedin.svg';
+import gitHubLink from '../../../../assets/images/icons/github.svg';
+import instagramLink from '../../../../assets/images/icons/instagram.svg';
+import { ReactComponent as ClosingLogo } from '../../../../assets/images/x-mark.svg';
 
 
 const SideMenu = ({ closeMenuByLinkClick, myRef, handleClosingButton, toggleSideMenu }) => {

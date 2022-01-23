@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-scroll';
 import { ReactComponent as BurgerLogo } from '../../assets/images/burger-menu.svg';
 import { ReactComponent as Logo } from '../../assets/images/SVG/fabricio-cunha-logo.svg';
-import SideMenu from '../SideMenu/SideMenu';
+import SideMenu from './components/SideMenu/SideMenu';
 import './navbar-styles.scss';
 
 const Navbar = () => {
