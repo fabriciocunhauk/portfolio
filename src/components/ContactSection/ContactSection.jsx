@@ -38,7 +38,6 @@ const ContactSection = () => {
     return (
         <div className="contact-section-container" id="contact-section">
             <h1>Lets talk</h1>
-            <hr />
             <form className={
                 contactAnimation
                     ? "contact-form contact-form-animation"
