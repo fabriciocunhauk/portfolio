@@ -7,7 +7,7 @@ const ContactSection = () => {
     const [contactAnimation, setContactAnimation] = useState(false);
 
     const handleScroll = () => {
-        if (window.scrollY > 4200) {
+        if (window.scrollY > 3200) {
             setContactAnimation(true);
         } else {
             setContactAnimation(false);

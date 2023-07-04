@@ -28,10 +28,7 @@ const AboutSection = () => {
                     <h1 className="skill-container-side-text-h1">
                         Hey, Im Fabricio Cunha</h1>
                         <h2>a self-taught front-end developer.</h2>
-                    <p>From the moment I produced "Hello World" in the console of my first application, I knew I was hooked into
-the world of software development. But software development has never been "just a job" for me, it's offered an
-engaging challenge to continually learn and improve my skills in creating high-quality software. What's started
-with a simple "Hello World" has become a full-fledged passion that only gets more exciting as time goes by.</p>
+                    <p>Hi there! I'm driven and passionate software engineer with a strong track record of delivering outstanding results. I have 3 years of experience in software development, with expertise such as frontend development with JavaScript, Typescript, HTML5, CSS3, React.js, REMIX JS, Tailwind, Sass, Styled-components, MUI, Redux, GraphQL, APIs, Git And GitHub.</p>
                 </div>
             </div>
         </section>

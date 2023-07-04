@@ -47,11 +47,9 @@ const Navbar = () => {
             <nav className={navbarBg ? "navbar active" : "navbar"}>
                 <div className="navigation-container">
                 <Link className="link-button" to="/"> <Logo className="personal-logo" /></Link>
-                   
                     <ul>
                         <a href="https://www.linkedin.com/in/fabricio-cunha-7b7392162" rel="noopener noreferrer" target="_blank"><li>Linkedin</li></a>
                         <a href="https://github.com/fabriciocunhauk" rel="noopener noreferrer" target="_blank"><li>GitHub</li></a>
-                        <a href="https://www.instagram.com/fabs.dev" rel="noopener noreferrer" target="_blank"><li>Instagram</li></a>
                     </ul>
                 </div>
                 <div className="transition-div">

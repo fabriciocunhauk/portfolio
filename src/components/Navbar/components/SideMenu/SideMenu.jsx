@@ -4,7 +4,6 @@ import './side-menu.scss';
 
 import linkedinLink from '../../../../assets/images/icons/linkedin.svg';
 import gitHubLink from '../../../../assets/images/icons/github.svg';
-import instagramLink from '../../../../assets/images/icons/instagram.svg';
 import { ReactComponent as ClosingLogo } from '../../../../assets/images/x-mark.svg';
 
 
@@ -22,7 +21,6 @@ const SideMenu = ({ closeMenuByLinkClick, myRef, handleClosingButton, toggleSide
                 <ul className="social-links-container">
                     <li><a className="social-link" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/fabricio-cunha-7b7392162"><span className="social-link-shadow"><img src={linkedinLink} alt="linkedin" /></span></a></li>
                     <li><a className="social-link" rel="noopener noreferrer" target="_blank" href="https://github.com/fabriciocunhauk"><img src={gitHubLink} alt="github" /></a></li>
-                    <li><a className="social-link" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/fabsdev"><img src={instagramLink} alt="instagram" /></a></li>
                 </ul>
             </div>
         </nav>
