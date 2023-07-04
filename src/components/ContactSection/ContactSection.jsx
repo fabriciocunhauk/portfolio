@@ -57,7 +57,7 @@ const ContactSection = () => {
                     status === "SUCCESS"
                         ? <button className="btn-success">Thanks!</button>
                         : status === "ERROR"
-                            ? <button className="btn-fail">Ooops! There was an error.</button>
+                            ? <button className="btn-fail">Ops! There was an error.</button>
                             : <button>Submit</button>
                 }
             </form>
