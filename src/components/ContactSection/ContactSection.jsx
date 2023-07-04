@@ -7,7 +7,7 @@ const ContactSection = () => {
     const [contactAnimation, setContactAnimation] = useState(false);
 
     const handleScroll = () => {
-        if (window.scrollY > 4200) {
+        if (window.scrollY > 3200) {
             setContactAnimation(true);
         } else {
             setContactAnimation(false);
@@ -57,7 +57,7 @@ const ContactSection = () => {
                     status === "SUCCESS"
                         ? <button className="btn-success">Thanks!</button>
                         : status === "ERROR"
-                            ? <button className="btn-fail">Ooops! There was an error.</button>
+                            ? <button className="btn-fail">Ops! There was an error.</button>
                             : <button>Submit</button>
                 }
             </form>
