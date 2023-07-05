@@ -9,7 +9,7 @@ import git from '../assets/images/SVG/git.svg';
 import github from '../assets/images/SVG/github-octocat.svg';
 import sql from '../assets/images/SVG/sql.svg';
 import graphQL from '../assets/images/SVG/graphql.svg';
-import sass from '../assets/images/SVG/sass.svg';
+import tailwind from '../assets/images/SVG/tailwindcss-icon.svg';
 
 export const mySvgData = [
     {
@@ -39,8 +39,8 @@ export const mySvgData = [
     },
     {
         id: 6,
-        path: sass,
-        link: "https://sass-lang.com"
+        path: tailwind,
+        link: "https://tailwindcss.com/"
     },
     {
         id: 7,
