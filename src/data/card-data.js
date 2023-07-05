@@ -14,21 +14,22 @@ const cardUrls = [
         link: "https://react-to-do-list-seven.vercel.app",
         github: "https://github.com/fabriciocunhauk/react-to-do-list"
     },
-    {
-        id: 3,
-        name: "E-Comerce",
-        imgURL: "https://github.com/fabriciocunhauk/React-crown-clothing/raw/master/src/assets/Readme%20img.png",
-        link: "https://react-crown-clothing-ecommerce.herokuapp.com/",
-        github: "https://github.com/fabriciocunhauk/React-crown-clothing"
+    // {
+    //     id: 3,
+    //     name: "E-Comerce",
+    //     imgURL: "https://github.com/fabriciocunhauk/React-crown-clothing/raw/master/src/assets/Readme%20img.png",
+    //     link: "https://react-crown-clothing-ecommerce.herokuapp.com/",
+    //     github: "https://github.com/fabriciocunhauk/React-crown-clothing"
 
-    }, {
-        id: 4,
-        name: "Interflix",
-        imgURL:
-            "https://github.com/fabriciocunhauk/React.js-interflix/raw/master/src/assets/imagens/Front-photo.PNG",
-        link: "https://react-js-interflix.vercel.app/",
-        github: "https://github.com/fabriciocunhauk/React.js-interflix"
-    },
+    // }, 
+    // {
+    //     id: 4,
+    //     name: "Interflix",
+    //     imgURL:
+    //         "https://github.com/fabriciocunhauk/React.js-interflix/raw/master/src/assets/imagens/Front-photo.PNG",
+    //     link: "https://react-js-interflix.vercel.app/",
+    //     github: "https://github.com/fabriciocunhauk/React.js-interflix"
+    // },
     {
         id: 5,
         name: "Loopstudios",
