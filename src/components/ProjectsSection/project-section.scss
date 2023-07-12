@@ -19,12 +19,12 @@
         }
     }
 
-    .cards {
-        margin-bottom: 40px;
+    .cards-container {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-evenly;
-        max-width: 1500px;
+        justify-content: center;
+        max-width: 1200px;
+        gap: 16px;
     }
 }

@@ -8,7 +8,7 @@ const ProjectSection = () => {
     return (
         <div className="projects-container" id="projects-section">
             <h1 className="projects-container-h1">Projects</h1>
-            <div className="cards">
+            <div className="cards-container">
                 {cardUrls.map(card => {
                     return <Card
                         key={card.id}

@@ -7,11 +7,8 @@ import './card.scss';
 const Card = ({ imgURL, name, link, github }) => {
     const [cardAnimationChange, setCardAnimationChange] = useState(false);
 
-    const position = window.pageYOffset;
-    console.log(position);
-
     const handleScroll = () => {
-        if (window.scrollY > 1500) {
+        if (window.scrollY > 1300) {
             setCardAnimationChange(true);
         } else {
             setCardAnimationChange(false);
