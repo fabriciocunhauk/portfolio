@@ -7,9 +7,8 @@ function Button({children, status, href}) {
         <a  
             href={href}
             className="btn"
-            target="_blank"
             rel="noopener noreferrer"
-            download="Fabricio-Cunha-CV.pdf">
+            download="Fabricio-Cunha-CV">
                 {children}
         </a> : 
         <button className={status === "SUCCESS" ? "btn-success btn" : status === "ERROR" ? "btn-fail btn" : "btn"}>

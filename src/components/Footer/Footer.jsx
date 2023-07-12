@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import locationIcon from '../../assets/images/icons/location.svg';
 import emailIcon from '../../assets/images/icons/email.svg';
 import phoneIcon from '../../assets/images/icons/phone.svg';
-import myCv from '../../assets/Download-file/frontend-reactjs.pdf';
+import myCv from '../../assets/download-file/fabricio-cunha-cv.pdf';
 import arrowUp from '../../assets/images/SVG/iconmonstr-arrow-up-lined.svg'
 import linkedinLink from '../../assets/images/icons/linkedin.svg';
 import gitHubLink from '../../assets/images/icons/github.svg';
