@@ -32,10 +32,3 @@
     transform: scale(1.03);
     box-shadow: 0px 0px 20px $white-color;
 }
-
-@media (max-width: 700px) {
-    .btn {
-        width: 60%;
-        height: 12%;
-    }
-}
