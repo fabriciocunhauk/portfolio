@@ -3,11 +3,20 @@ import locationIcon from '../../assets/images/icons/location.svg';
 import emailIcon from '../../assets/images/icons/email.svg';
 import phoneIcon from '../../assets/images/icons/phone.svg';
 import myCv from '../../assets/Download-file/frontend-reactjs.pdf';
+import arrowUp from '../../assets/images/SVG/iconmonstr-arrow-up-lined.svg'
 
 import './footer-styles.scss';
+import Button from '../Button/Button';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
+        <>
+        <div className="back-btn-container">
+            <Link className="back-btn" to="/">
+                <img src={arrowUp} className="btn-image" alt="back to top" />
+                Back to top</Link>
+        </div>
         <footer className="footer">
             <div className="footer-container">
             <div className="icon-container">
@@ -16,16 +25,12 @@ const Footer = () => {
                 <a className="contact-link" href="tel:+447453155169"><img src={phoneIcon} alt="phone" />+447453155169</a>
                 <a className="contact-link" href="mailto:fabriciocunhadeveloper@gmail.com"><img src={emailIcon} alt="email" />fabriciocunhadeveloper@gmail.com</a>
             </div>
-            <a
-                href={myCv}
-                className="btn-download"
-                target="_blank"
-                rel="noopener noreferrer"
-                download="Fabricio-Cunha-CV.pdf">
+            <Button href={myCv}>
                 Download CV
-            </a>
+            </Button>
             </div>
         </footer>
+        </>
     )
 }
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-
 import './contact-section.scss';
+import Button from '../Button/Button';
 
 const ContactSection = () => {
     const [status, setStatus] = useState('');
@@ -53,13 +53,15 @@ const ContactSection = () => {
                     <input type="tel" id="contact" name="phone" placeholder="Contact number" required />
                 </fieldset>
                 <textarea name="additional-details" cols="64" rows="10" placeholder="Your Message" required></textarea>
-                {
-                    status === "SUCCESS"
-                        ? <button className="btn-success">Thanks!</button>
-                        : status === "ERROR"
-                            ? <button className="btn-fail">Ops! There was an error.</button>
-                            : <button>Submit</button>
-                }
+                <Button status={status}>
+                    {
+                        status === "SUCCESS" ? 
+                        <span>Thanks!</span> 
+                        : status === "ERROR" ? 
+                        <span>Ops! There was an error.</span> 
+                        : <span>Submit</span> 
+                    }
+                </Button>
             </form>
         </div>
     )

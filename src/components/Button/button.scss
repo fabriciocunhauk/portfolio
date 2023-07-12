@@ -1,0 +1,41 @@
+ @import '../../scss/variables.scss';
+
+ .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    margin: 16px;
+    border-radius: 8px;
+    transition: all .3s;
+    border: none;
+    cursor: pointer;
+    color: $black-glass-color;
+    background: $white-color;
+    box-shadow: 0px 0px 10px $white-color;
+}
+
+.btn-success {
+    background: #29f230;
+    color: white;
+}
+
+.btn-fail {
+    background: #f44336;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 20px $white-color;
+}
+
+@media (max-width: 700px) {
+    .btn {
+        width: 60%;
+        height: 12%;
+    }
+}

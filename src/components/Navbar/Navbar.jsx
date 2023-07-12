@@ -48,8 +48,10 @@ const Navbar = () => {
                 <div className="navigation-container">
                 <Link className="link-button" to="/"> <Logo className="personal-logo" /></Link>
                     <ul>
-                        <a href="https://www.linkedin.com/in/fabricio-cunha-7b7392162" rel="noopener noreferrer" target="_blank"><li>Linkedin</li></a>
-                        <a href="https://github.com/fabriciocunhauk" rel="noopener noreferrer" target="_blank"><li>GitHub</li></a>
+                        <li className="side-menu-button"><Link className="link-button" to="about-section">Skills</Link></li>
+                        <li className="side-menu-button"><Link className="link-button" to="projects-section">Projects</Link></li>
+                        <li className="side-menu-button"><Link className="link-button" to="contact-section">Contact</Link></li>
+                        {/* <li className="side-menu-button"><Link className="link-button" to="/">Back to top</Link></li> */}
                     </ul>
                 </div>
                 <div className="transition-div">

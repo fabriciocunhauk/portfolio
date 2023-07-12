@@ -20,7 +20,6 @@
     .navigation-container {
         display: flex;
         align-items: center;
-        width: 400px;
         margin-left: 20px;
 
         ul {
@@ -34,6 +33,7 @@
                 margin-right: 20px;
                 color: $white-color;
                 font-weight: bold;
+                cursor: pointer;
             }
 
             li:hover {
