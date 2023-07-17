@@ -41,7 +41,7 @@ const cardUrls = [
         id: 6,
         name: "Movies Search",
         imgURL:
-            "https://github.com/fabriciocunhauk/React-Movies-Search/raw/master/src/assets/images/front-page.PNG",
+            "https://github.com/fabriciocunhauk/React-Movies-Search/blob/master/src/assets/images/front-page.png",
         link: "https://react-movies-search-alpha.vercel.app",
         github: "https://github.com/fabriciocunhauk/React-Movies-Search"
     },
