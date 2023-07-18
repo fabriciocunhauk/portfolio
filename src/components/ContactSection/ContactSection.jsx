@@ -1,20 +1,12 @@
 import React, { useState } from 'react';
-import './contact-section.scss';
+import { useScrollAction } from '../../hooks/useScrollAction';
 import Button from '../Button/Button';
+import './contact-section.scss';
 
 const ContactSection = () => {
     const [status, setStatus] = useState('');
-    const [contactAnimation, setContactAnimation] = useState(false);
 
-    const handleScroll = () => {
-        if (window.scrollY > 3200) {
-            setContactAnimation(true);
-        } else {
-            setContactAnimation(false);
-        }
-    }
-
-    window.addEventListener('scroll', handleScroll);
+   const  activeOnScroll  = useScrollAction(3200);
 
     const handleSubmit = (ev) => {
         ev.preventDefault();
@@ -39,7 +31,7 @@ const ContactSection = () => {
         <div className="contact-section-container" id="contact-section">
             <h1>Lets talk</h1>
             <form className={
-                contactAnimation
+                activeOnScroll
                     ? "contact-form contact-form-animation"
                     : "contact-form"
             }
