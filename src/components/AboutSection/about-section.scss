@@ -19,6 +19,7 @@
         align-items: center;
         justify-content: space-around;
         width: 100%;
+        gap: 20px;
 
         .skill-container-content-svg {
             display: flex;
@@ -31,8 +32,7 @@
             opacity: 0;
             transition: all .6s ease-in-out;
 
-
-            a {
+            & > a {
                 box-shadow: 1px 1px 10px black;
                 padding: 10px;
                 border-radius: 8px;
@@ -55,13 +55,12 @@
         }
 
         .skill-container-side-text {
-            width: 425px;
+            max-width: 425px;
             margin-right: -200px;
             transition: all .6s ease-in-out;
             opacity: 0;
 
             & > h2 {
-                width: 425px;
                 font-size: 2.5rem;
                 text-align: center;
             }
@@ -75,23 +74,25 @@
                 margin-top: 30px;
                 text-align: center;
             }
+
+            @media (max-width: 425px) {
+                & > h2 {
+                    font-size: 1.7rem;
+                    text-align: center;
+                }
+
+                & > p {
+                font-size: 1.1rem;
+                margin-top: 30px;
+                text-align: center;
+            }
+            }
         }
+
 
         .skill-container-side-text-animation {
             margin-right: 0px;
             opacity: 10;
-        }
-
-        @media (max-width: 700px) {
-            .skill-container-side-text {
-                margin: 30px;
-            }
-        }
-
-        @media (max-width: 1400px) {
-            .skill-container-side-text {
-                width: 400px;
-            }
         }
     }
 
