@@ -11,7 +11,7 @@ const cardUrls = [
         id: 2,
         name: "Todo React",
         imgURL: "https://github.com/fabriciocunhauk/react-to-do-list/raw/master/src/assets/images/desktop-preview.jpg",
-        link: "https://react-to-do-list-seven.vercel.app",
+        link: "https://react-to-do-list-git-master-fabriciocunhauk.vercel.app/",
         github: "https://github.com/fabriciocunhauk/react-to-do-list"
     },
     // {
